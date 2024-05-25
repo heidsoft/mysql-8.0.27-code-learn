@@ -1,0 +1,2 @@
+/usr/bin/ar qc librouting_plugin_tests.a CMakeFiles/routing_plugin_tests.dir/__/src/routing_plugin.cc.o CMakeFiles/routing_plugin_tests.dir/__/src/plugin_config.cc.o
+/usr/bin/ranlib librouting_plugin_tests.a

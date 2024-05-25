@@ -1,0 +1,5708 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						20,
+						22,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						67,
+						68,
+						69,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						90,
+						91,
+						92,
+						93,
+						94,
+						97,
+						99,
+						100,
+						101,
+						102,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3b0749bae55ec229c96c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						81,
+						83,
+						88,
+						149,
+						150,
+						151,
+						152,
+						154,
+						155,
+						156,
+						159,
+						248,
+						313,
+						314,
+						315
+					]
+				},
+				{
+					"build" : "extra/zlib",
+					"jsonFile" : "directory-extra.zlib-Debug-6ca3c0a918570717814f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extra/zlib",
+					"targetIndexes" : 
+					[
+						355
+					]
+				},
+				{
+					"build" : "extra/zstd",
+					"jsonFile" : "directory-extra.zstd-Debug-a1ce0dfffd3636ea0339.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "extra/zstd",
+					"targetIndexes" : 
+					[
+						357
+					]
+				},
+				{
+					"build" : "extra/libedit/libedit-20191231-3.1/src",
+					"jsonFile" : "directory-extra.libedit.libedit-20191231-3.1.src-Debug-fa65c47f09d31946c81b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extra/libedit/libedit-20191231-3.1/src",
+					"targetIndexes" : 
+					[
+						90,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141
+					]
+				},
+				{
+					"build" : "extra/libevent/libevent-2.1.11-stable",
+					"jsonFile" : "directory-extra.libevent.libevent-2.1.11-stable-Debug-d65b381e40dfd0cb89f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "extra/libevent/libevent-2.1.11-stable",
+					"targetIndexes" : 
+					[
+						91,
+						92,
+						93,
+						94
+					]
+				},
+				{
+					"build" : "extra/icu",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-extra.icu-Debug-20b668a14eeec1453666.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "extra/icu"
+				},
+				{
+					"build" : "extra/icu/source/common",
+					"jsonFile" : "directory-extra.icu.source.common-Debug-09477a0bd12b60ed2558.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "extra/icu/source/common",
+					"targetIndexes" : 
+					[
+						120
+					]
+				},
+				{
+					"build" : "extra/icu/source/i18n",
+					"jsonFile" : "directory-extra.icu.source.i18n-Debug-4bf6ed39bfd363928449.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "extra/icu/source/i18n",
+					"targetIndexes" : 
+					[
+						118
+					]
+				},
+				{
+					"build" : "extra/icu/source/stubdata",
+					"jsonFile" : "directory-extra.icu.source.stubdata-Debug-c0b8378cb49b3bf25e8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 7,
+					"source" : "extra/icu/source/stubdata",
+					"targetIndexes" : 
+					[
+						119
+					]
+				},
+				{
+					"build" : "extra/protobuf",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extra.protobuf-Debug-78c72ea6a469dcba327f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extra/protobuf"
+				},
+				{
+					"build" : "extra/protobuf/protobuf-3.11.4/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extra.protobuf.protobuf-3.11.4.cmake-Debug-5551a4c11c8dada42832.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "extra/protobuf/protobuf-3.11.4/cmake",
+					"targetIndexes" : 
+					[
+						145,
+						146,
+						147,
+						219
+					]
+				},
+				{
+					"build" : "include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include-Debug-77007168710942856cd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "strings",
+					"jsonFile" : "directory-strings-Debug-5ce713df793b3cd9325d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "strings",
+					"targetIndexes" : 
+					[
+						79,
+						312,
+						348
+					]
+				},
+				{
+					"build" : "vio",
+					"jsonFile" : "directory-vio-Debug-127a1e73ce6fa12f77cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vio",
+					"targetIndexes" : 
+					[
+						352
+					]
+				},
+				{
+					"build" : "mysys",
+					"jsonFile" : "directory-mysys-Debug-c8b7038b1825666d26da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mysys",
+					"targetIndexes" : 
+					[
+						162,
+						213,
+						214,
+						347
+					]
+				},
+				{
+					"build" : "libmysql",
+					"childIndexes" : 
+					[
+						16,
+						17,
+						18,
+						19
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libmysql-Debug-a0712d272ec9bc6afbbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libmysql",
+					"targetIndexes" : 
+					[
+						24,
+						142,
+						143,
+						190,
+						259
+					]
+				},
+				{
+					"build" : "libmysql/authentication_ldap",
+					"jsonFile" : "directory-libmysql.authentication_ldap-Debug-9f0eaec7a8d7283a7e48.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "libmysql/authentication_ldap"
+				},
+				{
+					"build" : "libmysql/authentication_fido",
+					"jsonFile" : "directory-libmysql.authentication_fido-Debug-5090e34c3f72b1b96ee6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "libmysql/authentication_fido"
+				},
+				{
+					"build" : "libmysql/authentication_kerberos",
+					"jsonFile" : "directory-libmysql.authentication_kerberos-Debug-5965ac5419cbd8a44f68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "libmysql/authentication_kerberos"
+				},
+				{
+					"build" : "libmysql/authentication_oci_client",
+					"jsonFile" : "directory-libmysql.authentication_oci_client-Debug-38acc1b622e5f1ef7012.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "libmysql/authentication_oci_client"
+				},
+				{
+					"build" : "libbinlogevents",
+					"childIndexes" : 
+					[
+						21
+					],
+					"jsonFile" : "directory-libbinlogevents-Debug-66419389c25b733d22d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libbinlogevents"
+				},
+				{
+					"build" : "libbinlogevents/src",
+					"jsonFile" : "directory-libbinlogevents.src-Debug-a56d861a292afd4a6297.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 0,
+					"source" : "libbinlogevents/src",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "libbinlogstandalone",
+					"childIndexes" : 
+					[
+						23
+					],
+					"jsonFile" : "directory-libbinlogstandalone-Debug-cc64ae4ffb75ea1696b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libbinlogstandalone"
+				},
+				{
+					"build" : "libbinlogstandalone/src",
+					"jsonFile" : "directory-libbinlogstandalone.src-Debug-48b664531fcf1e1d8730.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 0,
+					"source" : "libbinlogstandalone/src",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "storage/archive",
+					"jsonFile" : "directory-storage.archive-Debug-3b9c1c64abf7a2d91ab3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/archive",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "storage/blackhole",
+					"jsonFile" : "directory-storage.blackhole-Debug-ee1001d3c087c675050d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/blackhole",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "storage/csv",
+					"jsonFile" : "directory-storage.csv-Debug-955199dc6b284166f916.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/csv",
+					"targetIndexes" : 
+					[
+						82
+					]
+				},
+				{
+					"build" : "storage/example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-storage.example-Debug-b0c44384337d777d7c35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/example",
+					"targetIndexes" : 
+					[
+						95,
+						253
+					]
+				},
+				{
+					"build" : "storage/federated",
+					"jsonFile" : "directory-storage.federated-Debug-a2e7d89a7e6d4081ea90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/federated",
+					"targetIndexes" : 
+					[
+						96
+					]
+				},
+				{
+					"build" : "storage/heap",
+					"jsonFile" : "directory-storage.heap-Debug-bd983647729da04338b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/heap",
+					"targetIndexes" : 
+					[
+						108,
+						109
+					]
+				},
+				{
+					"build" : "storage/innobase",
+					"jsonFile" : "directory-storage.innobase-Debug-7dae8671b6d8c8b11888.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/innobase",
+					"targetIndexes" : 
+					[
+						121,
+						123
+					]
+				},
+				{
+					"build" : "storage/myisam",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-storage.myisam-Debug-5fde42aaf0d0a100656d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/myisam",
+					"targetIndexes" : 
+					[
+						168,
+						169,
+						170,
+						171,
+						172,
+						174
+					]
+				},
+				{
+					"build" : "storage/myisammrg",
+					"jsonFile" : "directory-storage.myisammrg-Debug-107d8f478868774b6871.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/myisammrg",
+					"targetIndexes" : 
+					[
+						173
+					]
+				},
+				{
+					"build" : "storage/perfschema",
+					"jsonFile" : "directory-storage.perfschema-Debug-db5d4df614c2deb92fe8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/perfschema",
+					"targetIndexes" : 
+					[
+						216
+					]
+				},
+				{
+					"build" : "storage/secondary_engine_mock",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-storage.secondary_engine_mock-Debug-a694c461e7087c63dc47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/secondary_engine_mock",
+					"targetIndexes" : 
+					[
+						164,
+						261
+					]
+				},
+				{
+					"build" : "storage/temptable",
+					"jsonFile" : "directory-storage.temptable-Debug-287a8103b9bd10977eb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "storage/temptable",
+					"targetIndexes" : 
+					[
+						316
+					]
+				},
+				{
+					"build" : "plugin/audit_null",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.audit_null-Debug-a416bef89cb05d01281b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/audit_null",
+					"targetIndexes" : 
+					[
+						16,
+						245,
+						275,
+						319
+					]
+				},
+				{
+					"build" : "plugin/auth",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.auth-Debug-fe3a0a7187825b197ab5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/auth",
+					"targetIndexes" : 
+					[
+						17,
+						18,
+						180,
+						220,
+						221,
+						222,
+						246,
+						247,
+						262,
+						264,
+						265,
+						266
+					]
+				},
+				{
+					"build" : "plugin/clone",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.clone-Debug-e45f1fc1ce9feefe6e4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/clone",
+					"targetIndexes" : 
+					[
+						25,
+						249
+					]
+				},
+				{
+					"build" : "plugin/connection_control",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.connection_control-Debug-8a6bceebfbd7e27be84e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/connection_control",
+					"targetIndexes" : 
+					[
+						80,
+						250
+					]
+				},
+				{
+					"build" : "plugin/daemon_example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.daemon_example-Debug-c306a95315b0d09a7675.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/daemon_example",
+					"targetIndexes" : 
+					[
+						84,
+						251
+					]
+				},
+				{
+					"build" : "plugin/ddl_rewriter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.ddl_rewriter-Debug-61a3869e5a550e564ab6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/ddl_rewriter",
+					"targetIndexes" : 
+					[
+						85,
+						252
+					]
+				},
+				{
+					"build" : "plugin/fulltext",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.fulltext-Debug-d768437cfb7e6989fc13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/fulltext",
+					"targetIndexes" : 
+					[
+						97,
+						215,
+						254
+					]
+				},
+				{
+					"build" : "plugin/group_replication",
+					"childIndexes" : 
+					[
+						44,
+						45
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.group_replication-Debug-8686c6e85136c1f23ac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/group_replication",
+					"targetIndexes" : 
+					[
+						102,
+						255
+					]
+				},
+				{
+					"build" : "plugin/group_replication/libmysqlgcs",
+					"jsonFile" : "directory-plugin.group_replication.libmysqlgcs-Debug-4d5c679fd430d3b7f6ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "plugin/group_replication/libmysqlgcs",
+					"targetIndexes" : 
+					[
+						144,
+						193
+					]
+				},
+				{
+					"build" : "plugin/group_replication/protobuf",
+					"jsonFile" : "directory-plugin.group_replication.protobuf-Debug-f8ac5002e6a8b1bbdfc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "plugin/group_replication/protobuf",
+					"targetIndexes" : 
+					[
+						101
+					]
+				},
+				{
+					"build" : "plugin/innodb_memcached",
+					"jsonFile" : "directory-plugin.innodb_memcached-Debug-ff1410f04d0619661ad6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/innodb_memcached"
+				},
+				{
+					"build" : "plugin/keyring",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.keyring-Debug-1fa6db2431dae87ef053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/keyring",
+					"targetIndexes" : 
+					[
+						134,
+						257
+					]
+				},
+				{
+					"build" : "plugin/keyring_udf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.keyring_udf-Debug-de061774ea73df3ceae1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/keyring_udf",
+					"targetIndexes" : 
+					[
+						135,
+						258
+					]
+				},
+				{
+					"build" : "plugin/password_validation",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.password_validation-Debug-2e1042da8a11bb2804ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/password_validation",
+					"targetIndexes" : 
+					[
+						304,
+						350
+					]
+				},
+				{
+					"build" : "plugin/pfs_table_plugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.pfs_table_plugin-Debug-414fa219ed73703cae7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/pfs_table_plugin",
+					"targetIndexes" : 
+					[
+						218,
+						263
+					]
+				},
+				{
+					"build" : "plugin/replication_observers_example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.replication_observers_example-Debug-3374acc0af78d51b17ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/replication_observers_example",
+					"targetIndexes" : 
+					[
+						224,
+						267
+					]
+				},
+				{
+					"build" : "plugin/rewrite_example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.rewrite_example-Debug-8697a1f353a0e6e4c6a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/rewrite_example",
+					"targetIndexes" : 
+					[
+						232,
+						268
+					]
+				},
+				{
+					"build" : "plugin/rewriter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.rewriter-Debug-4633d0ffa8afa6b351ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/rewriter",
+					"targetIndexes" : 
+					[
+						233,
+						269
+					]
+				},
+				{
+					"build" : "plugin/semisync",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.semisync-Debug-3f0b8d7b3d800a1aaa70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/semisync",
+					"targetIndexes" : 
+					[
+						240,
+						241,
+						242,
+						243,
+						270,
+						271,
+						272,
+						273
+					]
+				},
+				{
+					"build" : "plugin/test_service_sql_api",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.test_service_sql_api-Debug-ed641b9c259636593019.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/test_service_sql_api",
+					"targetIndexes" : 
+					[
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288,
+						289,
+						290,
+						291,
+						292,
+						293,
+						294,
+						295,
+						296,
+						297,
+						298,
+						299,
+						301,
+						302,
+						324,
+						325,
+						326,
+						327,
+						328,
+						329,
+						330,
+						331,
+						332,
+						333,
+						334,
+						335,
+						336,
+						337,
+						338,
+						339,
+						340,
+						341,
+						342,
+						343,
+						345,
+						346
+					]
+				},
+				{
+					"build" : "plugin/test_services",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.test_services-Debug-fe796b583aa5df0222ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/test_services",
+					"targetIndexes" : 
+					[
+						274,
+						276,
+						277,
+						278,
+						279,
+						318,
+						320,
+						321,
+						322,
+						323
+					]
+				},
+				{
+					"build" : "plugin/udf_services",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.udf_services-Debug-b8090f8b67f5eaa7cdfc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/udf_services",
+					"targetIndexes" : 
+					[
+						300,
+						344
+					]
+				},
+				{
+					"build" : "plugin/version_token",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.version_token-Debug-49a33ae94714a5d2ba04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/version_token",
+					"targetIndexes" : 
+					[
+						305,
+						351
+					]
+				},
+				{
+					"build" : "plugin/x",
+					"childIndexes" : 
+					[
+						60,
+						63,
+						64
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.x-Debug-56124198155c13da154a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugin/x",
+					"targetIndexes" : 
+					[
+						207
+					]
+				},
+				{
+					"build" : "plugin/x/protocol",
+					"childIndexes" : 
+					[
+						61,
+						62
+					],
+					"jsonFile" : "directory-plugin.x.protocol-Debug-2231d54a0b10f596a2e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "plugin/x/protocol"
+				},
+				{
+					"build" : "plugin/x/protocol/protobuf",
+					"jsonFile" : "directory-plugin.x.protocol.protobuf-Debug-bec5297418f197d3c086.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 60,
+					"projectIndex" : 0,
+					"source" : "plugin/x/protocol/protobuf",
+					"targetIndexes" : 
+					[
+						8,
+						210,
+						211
+					]
+				},
+				{
+					"build" : "plugin/x/protocol/plugin",
+					"jsonFile" : "directory-plugin.x.protocol.plugin-Debug-6f75194fb1fe5b268690.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 60,
+					"projectIndex" : 0,
+					"source" : "plugin/x/protocol/plugin",
+					"targetIndexes" : 
+					[
+						353,
+						354
+					]
+				},
+				{
+					"build" : "plugin/x/client",
+					"jsonFile" : "directory-plugin.x.client-Debug-e98f589887cc59317dc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "plugin/x/client",
+					"targetIndexes" : 
+					[
+						208,
+						209
+					]
+				},
+				{
+					"build" : "plugin/x/tests",
+					"childIndexes" : 
+					[
+						65,
+						66
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.x.tests-Debug-97459d47d4a1b2be2496.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "plugin/x/tests"
+				},
+				{
+					"build" : "plugin/x/tests/driver",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.x.tests.driver-Debug-5452c9eca35de9d62c87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "plugin/x/tests/driver",
+					"targetIndexes" : 
+					[
+						212
+					]
+				},
+				{
+					"build" : "plugin/x/tests/components",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugin.x.tests.components-Debug-6f15775ff0078e3ea4ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 0,
+					"source" : "plugin/x/tests/components",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "components/audit_api_message_emit",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.audit_api_message_emit-Debug-780eafdbe8bcfdef6c4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/audit_api_message_emit",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "components/example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.example-Debug-0c995b01ce7fb8d785a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/example",
+					"targetIndexes" : 
+					[
+						30,
+						31,
+						32,
+						45,
+						58,
+						59,
+						60
+					]
+				},
+				{
+					"build" : "components/keyrings",
+					"childIndexes" : 
+					[
+						70,
+						71
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.keyrings-Debug-bb812d454f48cd9d7d04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/keyrings"
+				},
+				{
+					"build" : "components/keyrings/common",
+					"jsonFile" : "directory-components.keyrings.common-Debug-8d6f184a999e577a4496.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 69,
+					"projectIndex" : 0,
+					"source" : "components/keyrings/common",
+					"targetIndexes" : 
+					[
+						133
+					]
+				},
+				{
+					"build" : "components/keyrings/keyring_file",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.keyrings.keyring_file-Debug-62e00ce9f398ae6e4811.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 69,
+					"projectIndex" : 0,
+					"source" : "components/keyrings/keyring_file",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "components/libminchassis",
+					"jsonFile" : "directory-components.libminchassis-Debug-f4b474c460dc6ac6ed0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/libminchassis",
+					"targetIndexes" : 
+					[
+						163
+					]
+				},
+				{
+					"build" : "components/library_mysys",
+					"jsonFile" : "directory-components.library_mysys-Debug-7da7f70d408eb9681e20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/library_mysys",
+					"targetIndexes" : 
+					[
+						148
+					]
+				},
+				{
+					"build" : "components/logging",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.logging-Debug-9fe1f9652f78d75853d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/logging",
+					"targetIndexes" : 
+					[
+						34,
+						35,
+						36,
+						37
+					]
+				},
+				{
+					"build" : "components/mysqlbackup",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.mysqlbackup-Debug-56b6afc7169755578245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/mysqlbackup",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "components/pfs_component",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.pfs_component-Debug-c3bbc7ca86e05a8650b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/pfs_component",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "components/pfs_example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.pfs_example-Debug-f24b4d9b81fecd4e1d4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/pfs_example",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "components/query_attributes",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.query_attributes-Debug-e3e39b41021d0d5cee93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/query_attributes",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "components/reference_cache",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.reference_cache-Debug-f9a527b0fe02d0640628.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/reference_cache",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "components/test",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.test-Debug-51746f817867266a074c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/test",
+					"targetIndexes" : 
+					[
+						44,
+						46,
+						47,
+						48,
+						49,
+						50,
+						53,
+						54,
+						55,
+						56,
+						57,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77
+					]
+				},
+				{
+					"build" : "components/validate_password",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.validate_password-Debug-42dffd0182d535986b9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/validate_password",
+					"targetIndexes" : 
+					[
+						78
+					]
+				},
+				{
+					"build" : "components/test/keyring_encryption_test",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.test.keyring_encryption_test-Debug-37d33926ac110f78b275.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/test/keyring_encryption_test",
+					"targetIndexes" : 
+					[
+						178
+					]
+				},
+				{
+					"build" : "components/test/perfschema",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.test.perfschema-Debug-4a291397817327f26c6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/test/perfschema",
+					"targetIndexes" : 
+					[
+						51,
+						52
+					]
+				},
+				{
+					"build" : "components/test/table_access",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.test.table_access-Debug-179b69f519069f836c51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/test/table_access",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "components/test/udf_services",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-components.test.udf_services-Debug-3439b494f1e397d8dfe0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/test/udf_services",
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"build" : "client",
+					"childIndexes" : 
+					[
+						87,
+						88,
+						89
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-client-Debug-5d2ba5581f9dc41fab8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "client",
+					"targetIndexes" : 
+					[
+						126,
+						127,
+						128,
+						129,
+						130,
+						175,
+						177,
+						181,
+						184,
+						186,
+						187,
+						188,
+						189,
+						192,
+						194,
+						203,
+						204,
+						205,
+						256
+					]
+				},
+				{
+					"build" : "client/base",
+					"jsonFile" : "directory-client.base-Debug-51307d417b66129f4107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 86,
+					"projectIndex" : 0,
+					"source" : "client/base",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "client/dump",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-client.dump-Debug-da80bbc285db4c2b3225.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 86,
+					"projectIndex" : 0,
+					"source" : "client/dump",
+					"targetIndexes" : 
+					[
+						195,
+						196
+					]
+				},
+				{
+					"build" : "client/migrate_keyring",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-client.migrate_keyring-Debug-8f9538da957991c23ecc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 86,
+					"projectIndex" : 0,
+					"source" : "client/migrate_keyring",
+					"targetIndexes" : 
+					[
+						179
+					]
+				},
+				{
+					"build" : "utilities",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-utilities-Debug-ace2a72b4701534eecd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utilities",
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						26,
+						27,
+						117,
+						122,
+						158,
+						167,
+						217,
+						223,
+						311,
+						356
+					]
+				},
+				{
+					"build" : "share",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-share-Debug-fc79cfc2123fceb6ad35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "share"
+				},
+				{
+					"build" : "libservices",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libservices-Debug-f6ae75fbe30615114513.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libservices",
+					"targetIndexes" : 
+					[
+						202
+					]
+				},
+				{
+					"build" : "testclients",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-testclients-Debug-7f9232c8f754a6d29822.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "testclients",
+					"targetIndexes" : 
+					[
+						176
+					]
+				},
+				{
+					"build" : "sql",
+					"childIndexes" : 
+					[
+						95,
+						96
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sql-Debug-d68fc43324b0513ac5b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sql",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7,
+						9,
+						19,
+						86,
+						87,
+						98,
+						99,
+						100,
+						157,
+						160,
+						185,
+						191,
+						238,
+						244,
+						260,
+						303,
+						306,
+						308,
+						309,
+						310,
+						349
+					]
+				},
+				{
+					"build" : "sql/server_component",
+					"jsonFile" : "directory-sql.server_component-Debug-86bd4e840ee2e2ff27bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 94,
+					"projectIndex" : 0,
+					"source" : "sql/server_component",
+					"targetIndexes" : 
+					[
+						182
+					]
+				},
+				{
+					"build" : "sql/protobuf",
+					"jsonFile" : "directory-sql.protobuf-Debug-46ac791873071dff2f3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 94,
+					"projectIndex" : 0,
+					"source" : "sql/protobuf",
+					"targetIndexes" : 
+					[
+						239
+					]
+				},
+				{
+					"build" : "scripts",
+					"childIndexes" : 
+					[
+						98
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-scripts-Debug-40431f03b72f0117e4d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "scripts",
+					"targetIndexes" : 
+					[
+						2,
+						6,
+						28
+					]
+				},
+				{
+					"build" : "scripts/sys_schema",
+					"jsonFile" : "directory-scripts.sys_schema-Debug-a150c9708ce6f263c407.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 97,
+					"projectIndex" : 0,
+					"source" : "scripts/sys_schema",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						14,
+						307
+					]
+				},
+				{
+					"build" : "mysql-test",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mysql-test-Debug-57d22e57a0eff0ad3c4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mysql-test",
+					"targetIndexes" : 
+					[
+						317
+					]
+				},
+				{
+					"build" : "mysql-test/lib/My/SafeProcess",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mysql-test.lib.My.SafeProcess-Debug-a7a50aff37360be2bd8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mysql-test/lib/My/SafeProcess",
+					"targetIndexes" : 
+					[
+						206
+					]
+				},
+				{
+					"build" : "support-files",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-support-files-Debug-60c038a27cd0d0efe8b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "support-files"
+				},
+				{
+					"build" : "router",
+					"childIndexes" : 
+					[
+						103
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router-Debug-c854f0dc1f2760ebb2aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "router",
+					"targetIndexes" : 
+					[
+						198
+					]
+				},
+				{
+					"build" : "router/src",
+					"childIndexes" : 
+					[
+						104,
+						107,
+						109,
+						111,
+						112,
+						113,
+						114,
+						116,
+						117,
+						119,
+						121,
+						123,
+						125,
+						127,
+						129,
+						131,
+						133
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src-Debug-d713466e02a7730f585a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 102,
+					"projectIndex" : 9,
+					"source" : "router/src",
+					"targetIndexes" : 
+					[
+						153
+					]
+				},
+				{
+					"build" : "router/src/harness",
+					"childIndexes" : 
+					[
+						105,
+						106
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.harness-Debug-274ceaeec7a579badf31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/harness"
+				},
+				{
+					"build" : "router/src/harness/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.harness.src-Debug-6aee7e81fe2fa739dfdf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 104,
+					"projectIndex" : 9,
+					"source" : "router/src/harness/src",
+					"targetIndexes" : 
+					[
+						103,
+						104,
+						106,
+						107
+					]
+				},
+				{
+					"build" : "router/src/harness/include",
+					"jsonFile" : "directory-router.src.harness.include-Debug-7706fbad5530f4c75670.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 104,
+					"projectIndex" : 9,
+					"source" : "router/src/harness/include",
+					"targetIndexes" : 
+					[
+						105
+					]
+				},
+				{
+					"build" : "router/src/http",
+					"childIndexes" : 
+					[
+						108
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.http-Debug-680c92eb1a6bde0ea791.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/http"
+				},
+				{
+					"build" : "router/src/http/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.http.src-Debug-e3eee67d00d92c95c3cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 107,
+					"projectIndex" : 9,
+					"source" : "router/src/http/src",
+					"targetIndexes" : 
+					[
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						200,
+						227
+					]
+				},
+				{
+					"build" : "router/src/io",
+					"childIndexes" : 
+					[
+						110
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.io-Debug-26fc757063f886835de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/io"
+				},
+				{
+					"build" : "router/src/io/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.io.src-Debug-960f5432905e148c29a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 109,
+					"projectIndex" : 9,
+					"source" : "router/src/io/src",
+					"targetIndexes" : 
+					[
+						124,
+						125
+					]
+				},
+				{
+					"build" : "router/src/json_schema_embedder",
+					"jsonFile" : "directory-router.src.json_schema_embedder-Debug-bca778c11fa900c4c2f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/json_schema_embedder",
+					"targetIndexes" : 
+					[
+						131
+					]
+				},
+				{
+					"build" : "router/src/keepalive",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.keepalive-Debug-173b500f39404a54666b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/keepalive",
+					"targetIndexes" : 
+					[
+						132
+					]
+				},
+				{
+					"build" : "router/src/metadata_cache",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.metadata_cache-Debug-e2efc652ab1d5cc6b2c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/metadata_cache",
+					"targetIndexes" : 
+					[
+						161
+					]
+				},
+				{
+					"build" : "router/src/mock_server",
+					"childIndexes" : 
+					[
+						115
+					],
+					"jsonFile" : "directory-router.src.mock_server-Debug-91a77514af4030b3b1ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/mock_server"
+				},
+				{
+					"build" : "router/src/mock_server/src",
+					"jsonFile" : "directory-router.src.mock_server.src-Debug-34aed314f4569bd9a336.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 114,
+					"projectIndex" : 9,
+					"source" : "router/src/mock_server/src",
+					"targetIndexes" : 
+					[
+						89,
+						165,
+						166,
+						183,
+						229
+					]
+				},
+				{
+					"build" : "router/src/mysql_protocol",
+					"jsonFile" : "directory-router.src.mysql_protocol-Debug-4d344ed7ec64eb91e411.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/mysql_protocol"
+				},
+				{
+					"build" : "router/src/openssl",
+					"childIndexes" : 
+					[
+						118
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.openssl-Debug-5f60366279f1a7a6693b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/openssl"
+				},
+				{
+					"build" : "router/src/openssl/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.openssl.src-Debug-031040a727d3d069c948.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 117,
+					"projectIndex" : 9,
+					"source" : "router/src/openssl/src",
+					"targetIndexes" : 
+					[
+						235
+					]
+				},
+				{
+					"build" : "router/src/plugin_info",
+					"childIndexes" : 
+					[
+						120
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.plugin_info-Debug-f4ca1905fc58f0b1449d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/plugin_info"
+				},
+				{
+					"build" : "router/src/plugin_info/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.plugin_info.src-Debug-c0a624b7b0ffa14979f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 119,
+					"projectIndex" : 9,
+					"source" : "router/src/plugin_info/src",
+					"targetIndexes" : 
+					[
+						201
+					]
+				},
+				{
+					"build" : "router/src/protobuf",
+					"childIndexes" : 
+					[
+						122
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.protobuf-Debug-b1eb7d4fb599911a6ff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/protobuf"
+				},
+				{
+					"build" : "router/src/protobuf/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.protobuf.src-Debug-03a9cc26fecbd9acdd7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 121,
+					"projectIndex" : 9,
+					"source" : "router/src/protobuf/src",
+					"targetIndexes" : 
+					[
+						236
+					]
+				},
+				{
+					"build" : "router/src/rest_api",
+					"childIndexes" : 
+					[
+						124
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_api-Debug-dd8f0831b8320316a831.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_api"
+				},
+				{
+					"build" : "router/src/rest_api/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_api.src-Debug-d10907eb26561c65b534.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 123,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_api/src",
+					"targetIndexes" : 
+					[
+						225,
+						226
+					]
+				},
+				{
+					"build" : "router/src/rest_metadata_cache",
+					"childIndexes" : 
+					[
+						126
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_metadata_cache-Debug-60768e1ed4a1f6242ce4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_metadata_cache"
+				},
+				{
+					"build" : "router/src/rest_metadata_cache/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_metadata_cache.src-Debug-57c5e70d47a5b198d292.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 125,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_metadata_cache/src",
+					"targetIndexes" : 
+					[
+						228
+					]
+				},
+				{
+					"build" : "router/src/rest_router",
+					"childIndexes" : 
+					[
+						128
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_router-Debug-6b0912589bc55dd647e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_router"
+				},
+				{
+					"build" : "router/src/rest_router/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_router.src-Debug-8b4b94944281137f9f55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 127,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_router/src",
+					"targetIndexes" : 
+					[
+						230
+					]
+				},
+				{
+					"build" : "router/src/rest_routing",
+					"childIndexes" : 
+					[
+						130
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_routing-Debug-7ae2ef87c76ab7435d43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_routing"
+				},
+				{
+					"build" : "router/src/rest_routing/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.rest_routing.src-Debug-26872ec0389c9554925b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 129,
+					"projectIndex" : 9,
+					"source" : "router/src/rest_routing/src",
+					"targetIndexes" : 
+					[
+						231
+					]
+				},
+				{
+					"build" : "router/src/router",
+					"childIndexes" : 
+					[
+						132
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.router-Debug-29d5911d2345b56bd0e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/router"
+				},
+				{
+					"build" : "router/src/router/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.router.src-Debug-5bb3b66837e2658f08a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 131,
+					"projectIndex" : 9,
+					"source" : "router/src/router/src",
+					"targetIndexes" : 
+					[
+						197,
+						199,
+						234
+					]
+				},
+				{
+					"build" : "router/src/routing",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-router.src.routing-Debug-3385ca2ad07fe035c811.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 103,
+					"projectIndex" : 9,
+					"source" : "router/src/routing",
+					"targetIndexes" : 
+					[
+						237
+					]
+				},
+				{
+					"build" : "man",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-man-Debug-4b1a29e15fa782768013.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "man"
+				},
+				{
+					"build" : "packaging/rpm-common",
+					"jsonFile" : "directory-packaging.rpm-common-Debug-99add1641d623ed7fa96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/rpm-common"
+				},
+				{
+					"build" : "packaging/rpm-oel",
+					"jsonFile" : "directory-packaging.rpm-oel-Debug-48b9c1696a51487bc435.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/rpm-oel"
+				},
+				{
+					"build" : "packaging/rpm-fedora",
+					"jsonFile" : "directory-packaging.rpm-fedora-Debug-7fb8ea657d19148d9735.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/rpm-fedora"
+				},
+				{
+					"build" : "packaging/rpm-sles",
+					"jsonFile" : "directory-packaging.rpm-sles-Debug-9b5ee054f5aeaa221254.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/rpm-sles"
+				},
+				{
+					"build" : "packaging/rpm-docker",
+					"jsonFile" : "directory-packaging.rpm-docker-Debug-1ed019d62fb0da8872b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/rpm-docker"
+				},
+				{
+					"build" : "packaging/deb-in",
+					"jsonFile" : "directory-packaging.deb-in-Debug-723d63ba57e51d395716.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/deb-in"
+				},
+				{
+					"build" : "packaging/WiX",
+					"jsonFile" : "directory-packaging.WiX-Debug-30bc99c6d228292e1321.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/WiX"
+				},
+				{
+					"build" : "packaging/solaris",
+					"jsonFile" : "directory-packaging.solaris-Debug-0cb6fa30ceafb325e5aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "packaging/solaris"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142
+					],
+					"name" : "MySQL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						90,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						108,
+						109,
+						117,
+						121,
+						122,
+						123,
+						126,
+						127,
+						128,
+						129,
+						130,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						148,
+						149,
+						150,
+						151,
+						152,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						162,
+						163,
+						164,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						220,
+						221,
+						222,
+						223,
+						224,
+						232,
+						233,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271,
+						272,
+						273,
+						274,
+						275,
+						276,
+						277,
+						278,
+						279,
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288,
+						289,
+						290,
+						291,
+						292,
+						293,
+						294,
+						295,
+						296,
+						297,
+						298,
+						299,
+						300,
+						301,
+						302,
+						303,
+						304,
+						305,
+						306,
+						307,
+						308,
+						309,
+						310,
+						311,
+						312,
+						313,
+						314,
+						315,
+						316,
+						317,
+						318,
+						319,
+						320,
+						321,
+						322,
+						323,
+						324,
+						325,
+						326,
+						327,
+						328,
+						329,
+						330,
+						331,
+						332,
+						333,
+						334,
+						335,
+						336,
+						337,
+						338,
+						339,
+						340,
+						341,
+						342,
+						343,
+						344,
+						345,
+						346,
+						347,
+						348,
+						349,
+						350,
+						351,
+						352,
+						353,
+						354,
+						356
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "zlib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						355
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "zstd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						357
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "libevent",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						91,
+						92,
+						93,
+						94
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ICU",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ICU-uc",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						120
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "ICU-i18n",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						118
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "ICU-stubdata",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						119
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "protobuf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						145,
+						146,
+						147,
+						219
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133
+					],
+					"name" : "MySQLRouter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						89,
+						103,
+						104,
+						105,
+						106,
+						107,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						124,
+						125,
+						131,
+						132,
+						153,
+						161,
+						165,
+						166,
+						183,
+						197,
+						198,
+						199,
+						200,
+						201,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						234,
+						235,
+						236,
+						237
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 94,
+					"id" : "GenBison_hints::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-GenBison_hints-Debug-612c418b4b4178bde58b.json",
+					"name" : "GenBison_hints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "GenBison_mysql::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-GenBison_mysql-Debug-30d67b784d3fd97a0e1f.json",
+					"name" : "GenBison_mysql",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 97,
+					"id" : "GenBootstrapPriv::@de1a740d5dc98ffd5d0e",
+					"jsonFile" : "target-GenBootstrapPriv-Debug-fb833366f1546b08eec7.json",
+					"name" : "GenBootstrapPriv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "GenClientError::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-GenClientError-Debug-34a8332de43c49801c0b.json",
+					"name" : "GenClientError",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "GenDigestServerSource::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-GenDigestServerSource-Debug-c16fc6f6f526b9507485.json",
+					"name" : "GenDigestServerSource",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "GenError::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-GenError-Debug-209efab3533a0207ef17.json",
+					"name" : "GenError",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 97,
+					"id" : "GenFixPrivs::@de1a740d5dc98ffd5d0e",
+					"jsonFile" : "target-GenFixPrivs-Debug-c4b8614d39d78f3f674f.json",
+					"name" : "GenFixPrivs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "GenKeywordList::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-GenKeywordList-Debug-d829fc0b19864fa473dd.json",
+					"name" : "GenKeywordList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "GenLiteProtos::@0fd4830209ca3980be17",
+					"jsonFile" : "target-GenLiteProtos-Debug-637fb515daa6f2343791.json",
+					"name" : "GenLiteProtos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "GenServerSource::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-GenServerSource-Debug-00000000000000000000.json",
+					"name" : "GenServerSource",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 98,
+					"id" : "GenSysSchema::@7ed8a01c35c996bc5d71",
+					"jsonFile" : "target-GenSysSchema-Debug-4654ccd9ac13d714deaa.json",
+					"name" : "GenSysSchema",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 98,
+					"id" : "GenSysSchemaC::@7ed8a01c35c996bc5d71",
+					"jsonFile" : "target-GenSysSchemaC-Debug-f2cbc24248223cb112e3.json",
+					"name" : "GenSysSchemaC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "INFO_BIN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-INFO_BIN-Debug-e11dff994bf7740f4769.json",
+					"name" : "INFO_BIN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "INFO_SRC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-INFO_SRC-Debug-a9b9823aa39ce7845fce.json",
+					"name" : "INFO_SRC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 98,
+					"id" : "all_sys_schema::@7ed8a01c35c996bc5d71",
+					"jsonFile" : "target-all_sys_schema-Debug-54dde8f376bf49496419.json",
+					"name" : "all_sys_schema",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "archive::@2e44bbdae2afc01b0e4e",
+					"jsonFile" : "target-archive-Debug-7960e93e05d9c45581cc.json",
+					"name" : "archive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "audit_null::@c34071285110d5fbf9c9",
+					"jsonFile" : "target-audit_null-Debug-1f6063dcd05d0c9cf802.json",
+					"name" : "audit_null",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "auth::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-auth-Debug-9a60f24ae9dcab614a1f.json",
+					"name" : "auth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "auth_test_plugin::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-auth_test_plugin-Debug-96de0659c56393deda81.json",
+					"name" : "auth_test_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "binlog::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-binlog-Debug-2a6897f73e60062488a7.json",
+					"name" : "binlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "binlogevents_static::@2bc2c719f9331b86922b",
+					"jsonFile" : "target-binlogevents_static-Debug-00000000000000000000.json",
+					"name" : "binlogevents_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "binlogstandalone_static::@1bef3bd430945accb062",
+					"jsonFile" : "target-binlogstandalone_static-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "binlogstandalone_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "blackhole::@cbff55daf8a1ba3118e0",
+					"jsonFile" : "target-blackhole-Debug-a8865d198acaeb5612cb.json",
+					"name" : "blackhole",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "client_base::@7c7795c8b88c3e8997d2",
+					"jsonFile" : "target-client_base-Debug-a2eda34b5b6cdcdee8c5.json",
+					"name" : "client_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "clientlib::@804198ce8b9bd67f3a0d",
+					"jsonFile" : "target-clientlib-Debug-6348efcce426c4b03df2.json",
+					"name" : "clientlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "clone::@0bf955eb37e65c838e15",
+					"jsonFile" : "target-clone-Debug-ea6bf0eedba0b481301b.json",
+					"name" : "clone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "comp_client_err::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-comp_client_err-Debug-0d39a7024006f96e95d3.json",
+					"name" : "comp_client_err",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "comp_err::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-comp_err-Debug-9baae62b3fa55c03d73a.json",
+					"name" : "comp_err",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 97,
+					"id" : "comp_sql::@de1a740d5dc98ffd5d0e",
+					"jsonFile" : "target-comp_sql-Debug-d89b06211bdfe974682d.json",
+					"name" : "comp_sql",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "component_audit_api_message_emit::@0ab8ac003d74006f8bf8",
+					"jsonFile" : "target-component_audit_api_message_emit-Debug-9e424c10dc7fa0b575ff.json",
+					"name" : "component_audit_api_message_emit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "component_example_component1::@237971921040229fd6e4",
+					"jsonFile" : "target-component_example_component1-Debug-e864f03876184e474022.json",
+					"name" : "component_example_component1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "component_example_component2::@237971921040229fd6e4",
+					"jsonFile" : "target-component_example_component2-Debug-00000000000000000000.json",
+					"name" : "component_example_component2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "component_example_component3::@237971921040229fd6e4",
+					"jsonFile" : "target-component_example_component3-Debug-63d9fd51fc39e7449d55.json",
+					"name" : "component_example_component3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "component_keyring_file::@87a32a907b672d360106",
+					"jsonFile" : "target-component_keyring_file-Debug-0e6db0076f58c2cedae9.json",
+					"name" : "component_keyring_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "component_log_filter_dragnet::@d18f10c1d23ba84010c1",
+					"jsonFile" : "target-component_log_filter_dragnet-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "component_log_filter_dragnet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "component_log_sink_json::@d18f10c1d23ba84010c1",
+					"jsonFile" : "target-component_log_sink_json-Debug-80658b72aa409884bc8a.json",
+					"name" : "component_log_sink_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "component_log_sink_syseventlog::@d18f10c1d23ba84010c1",
+					"jsonFile" : "target-component_log_sink_syseventlog-Debug-3ca2e27b7ecf65c3e6e0.json",
+					"name" : "component_log_sink_syseventlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "component_log_sink_test::@d18f10c1d23ba84010c1",
+					"jsonFile" : "target-component_log_sink_test-Debug-a4a1fdbe96c2ec305307.json",
+					"name" : "component_log_sink_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "component_mysqlbackup::@a135fe945b302204c461",
+					"jsonFile" : "target-component_mysqlbackup-Debug-00000000000000000000.json",
+					"name" : "component_mysqlbackup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "component_mysqlx_global_reset::@bcd6d1b7cd723ea2e2a3",
+					"jsonFile" : "target-component_mysqlx_global_reset-Debug-de9daf41e5c925019176.json",
+					"name" : "component_mysqlx_global_reset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "component_pfs_example::@2992a99228831cbc5bb1",
+					"jsonFile" : "target-component_pfs_example-Debug-5457cb82a0c984a20243.json",
+					"name" : "component_pfs_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "component_pfs_example_component_population::@50d730a2baa7d59ed9e9",
+					"jsonFile" : "target-component_pfs_example_component_population-Debug-f4520ac7bc59aef48d90.json",
+					"name" : "component_pfs_example_component_population",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "component_query_attributes::@8385f3ddb8ae97270a24",
+					"jsonFile" : "target-component_query_attributes-Debug-f2411c52fd2bb66a2a82.json",
+					"name" : "component_query_attributes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "component_reference_cache::@2f22624c536546dd8373",
+					"jsonFile" : "target-component_reference_cache-Debug-1be69febcd27694c46db.json",
+					"name" : "component_reference_cache",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_audit_api_message::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_audit_api_message-Debug-136923b153dada35cd6b.json",
+					"name" : "component_test_audit_api_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "component_test_backup_lock_service::@237971921040229fd6e4",
+					"jsonFile" : "target-component_test_backup_lock_service-Debug-ebe3e0bc402570dcdbf6.json",
+					"name" : "component_test_backup_lock_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_component_deinit::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_component_deinit-Debug-5e2e0ffeb0bc7ba004e8.json",
+					"name" : "component_test_component_deinit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_host_application_signal::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_host_application_signal-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "component_test_host_application_signal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_mysql_current_thread_reader::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_mysql_current_thread_reader-Debug-9889f92bafa583868d8b.json",
+					"name" : "component_test_mysql_current_thread_reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_mysql_runtime_error::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_mysql_runtime_error-Debug-089c52f99945244816b1.json",
+					"name" : "component_test_mysql_runtime_error",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_mysql_system_variable_set::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_mysql_system_variable_set-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "component_test_mysql_system_variable_set",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 83,
+					"id" : "component_test_pfs_notification::@87ab84adb8fcecf28670",
+					"jsonFile" : "target-component_test_pfs_notification-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "component_test_pfs_notification",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 83,
+					"id" : "component_test_pfs_resource_group::@87ab84adb8fcecf28670",
+					"jsonFile" : "target-component_test_pfs_resource_group-Debug-640dcaebb7e0d53a6322.json",
+					"name" : "component_test_pfs_resource_group",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_status_var_service::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_status_var_service-Debug-3e3b2c8edd9fecac446f.json",
+					"name" : "component_test_status_var_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_status_var_service_int::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_status_var_service_int-Debug-07bc9de0117e7537045b.json",
+					"name" : "component_test_status_var_service_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_status_var_service_reg_only::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_status_var_service_reg_only-Debug-00000000000000000000.json",
+					"name" : "component_test_status_var_service_reg_only",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_status_var_service_str::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_status_var_service_str-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "component_test_status_var_service_str",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_status_var_service_unreg_only::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_status_var_service_unreg_only-Debug-26d4b693e462012e2776.json",
+					"name" : "component_test_status_var_service_unreg_only",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "component_test_string_service::@237971921040229fd6e4",
+					"jsonFile" : "target-component_test_string_service-Debug-315b35df16522d40f89b.json",
+					"name" : "component_test_string_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "component_test_string_service_charset::@237971921040229fd6e4",
+					"jsonFile" : "target-component_test_string_service_charset-Debug-95bde103ee7045dbd267.json",
+					"name" : "component_test_string_service_charset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "component_test_string_service_long::@237971921040229fd6e4",
+					"jsonFile" : "target-component_test_string_service_long-Debug-63afe361aba33b363c1a.json",
+					"name" : "component_test_string_service_long",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_sys_var_service::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_sys_var_service-Debug-d64b957fdf61d51c43ef.json",
+					"name" : "component_test_sys_var_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_sys_var_service_int::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_sys_var_service_int-Debug-00000000000000000000.json",
+					"name" : "component_test_sys_var_service_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_sys_var_service_same::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_sys_var_service_same-Debug-7952bf72738133737f9e.json",
+					"name" : "component_test_sys_var_service_same",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_sys_var_service_str::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_sys_var_service_str-Debug-00000000000000000000.json",
+					"name" : "component_test_sys_var_service_str",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_system_variable_source::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_system_variable_source-Debug-9361af4701443aac14e8.json",
+					"name" : "component_test_system_variable_source",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "component_test_table_access::@3e1cbb1fdc7dde41eeb8",
+					"jsonFile" : "target-component_test_table_access-Debug-cb0dd0f8b4cc3eca39ed.json",
+					"name" : "component_test_table_access",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_test_udf_registration::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_udf_registration-Debug-61489a78f67feafad28d.json",
+					"name" : "component_test_udf_registration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "component_test_udf_services::@af372abe6d2525fe52af",
+					"jsonFile" : "target-component_test_udf_services-Debug-00000000000000000000.json",
+					"name" : "component_test_udf_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_reg_3_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_reg_3_func-Debug-4e631b84e90936f1c71b.json",
+					"name" : "component_udf_reg_3_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_reg_avg_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_reg_avg_func-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "component_udf_reg_avg_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_reg_int_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_reg_int_func-Debug-6ec26d91e9fdf84bfdd2.json",
+					"name" : "component_udf_reg_int_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_reg_int_same_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_reg_int_same_func-Debug-14e08014bb2d0d977253.json",
+					"name" : "component_udf_reg_int_same_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_reg_only_3_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_reg_only_3_func-Debug-ba87e985ca1128dd3097.json",
+					"name" : "component_udf_reg_only_3_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_reg_real_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_reg_real_func-Debug-00000000000000000000.json",
+					"name" : "component_udf_reg_real_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_unreg_3_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_unreg_3_func-Debug-00000000000000000000.json",
+					"name" : "component_udf_unreg_3_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_unreg_int_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_unreg_int_func-Debug-f7819e80facdbae4a966.json",
+					"name" : "component_udf_unreg_int_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "component_udf_unreg_real_func::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_udf_unreg_real_func-Debug-40bf4b8442dc6913e81d.json",
+					"name" : "component_udf_unreg_real_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "component_validate_password::@1cce1f3fcb0f6f01c494",
+					"jsonFile" : "target-component_validate_password-Debug-be6a77849ba9dc1a11db.json",
+					"name" : "component_validate_password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "conf_to_src::@89d0016ae4e25e06fd39",
+					"jsonFile" : "target-conf_to_src-Debug-428895befd918fa8d787.json",
+					"name" : "conf_to_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "connection_control::@bc31871660e2cb639c5d",
+					"jsonFile" : "target-connection_control-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "connection_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_openssl_dlls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_openssl_dlls-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "copy_openssl_dlls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "csv::@2d8bab0368e1620dc542",
+					"jsonFile" : "target-csv-Debug-d93a0ffd5798052baf22.json",
+					"name" : "csv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ctags::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ctags-Debug-884b1dd14e8efdb351dd.json",
+					"name" : "ctags",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "daemon_example::@4b29463cd026a5510fc3",
+					"jsonFile" : "target-daemon_example-Debug-f19c9b8404c04a1d4ea3.json",
+					"name" : "daemon_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "ddl_rewriter::@30f638432b660b4c0b51",
+					"jsonFile" : "target-ddl_rewriter-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "ddl_rewriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "dist::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-dist-Debug-fe49d2d78c412c8fa98e.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "distclean::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-distclean-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "distclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doxygen-Debug-786a4d4b33e4656564e4.json",
+					"name" : "doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 115,
+					"id" : "duktape::@09c51ce0bca0d324c59e",
+					"jsonFile" : "target-duktape-Debug-647010efed196b23eaa9.json",
+					"name" : "duktape",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "edit::@2298fb92a97434fbc6ac",
+					"jsonFile" : "target-edit-Debug-66880c7aa8d367d38360.json",
+					"name" : "edit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "event_core::@6a7956d454e45fb56c8c",
+					"jsonFile" : "target-event_core-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "event_core",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "event_extra::@6a7956d454e45fb56c8c",
+					"jsonFile" : "target-event_extra-Debug-00000000000000000000.json",
+					"name" : "event_extra",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "event_openssl::@6a7956d454e45fb56c8c",
+					"jsonFile" : "target-event_openssl-Debug-00000000000000000000.json",
+					"name" : "event_openssl",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "event_pthreads::@6a7956d454e45fb56c8c",
+					"jsonFile" : "target-event_pthreads-Debug-5585837586c9ca1997dc.json",
+					"name" : "event_pthreads",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "example::@2d045fde9aab95842df1",
+					"jsonFile" : "target-example-Debug-2071d2d28aaee92c1763.json",
+					"name" : "example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "federated::@b132bc03dee175d33813",
+					"jsonFile" : "target-federated-Debug-9727ce4b5e2489557763.json",
+					"name" : "federated",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "ftexample::@5cea746ce5de5d66e1e7",
+					"jsonFile" : "target-ftexample-Debug-9b9830b611172bc67797.json",
+					"name" : "ftexample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "gen_keyword_list::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-gen_keyword_list-Debug-6d5d686bcc36172a640f.json",
+					"name" : "gen_keyword_list",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "gen_lex_hash::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-gen_lex_hash-Debug-4143e16d09e4574d7306.json",
+					"name" : "gen_lex_hash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "gen_lex_token::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-gen_lex_token-Debug-0e9070ab8663e99eed63.json",
+					"name" : "gen_lex_token",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "gr_protobuf_lite::@c9bfdddd5002456a5f52",
+					"jsonFile" : "target-gr_protobuf_lite-Debug-e76735d7dc8366d1a733.json",
+					"name" : "gr_protobuf_lite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "group_replication::@b3c0bd3bd661b2f6c124",
+					"jsonFile" : "target-group_replication-Debug-d89a638d835a9984d0f6.json",
+					"name" : "group_replication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 105,
+					"id" : "harness-archive::@27553637d7cd8e81ae3b",
+					"jsonFile" : "target-harness-archive-Debug-77863e28adecaebd94ae.json",
+					"name" : "harness-archive",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 105,
+					"id" : "harness-library::@27553637d7cd8e81ae3b",
+					"jsonFile" : "target-harness-library-Debug-7eb77d6c0a81240f8b57.json",
+					"name" : "harness-library",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 106,
+					"id" : "harness_net_ts::@6d5d9cddcc79c14b5146",
+					"jsonFile" : "target-harness_net_ts-Debug-226a06da564f969b83ee.json",
+					"name" : "harness_net_ts",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 105,
+					"id" : "harness_stdx::@27553637d7cd8e81ae3b",
+					"jsonFile" : "target-harness_stdx-Debug-92109abbcdd049ee94eb.json",
+					"name" : "harness_stdx",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 105,
+					"id" : "harness_tls::@27553637d7cd8e81ae3b",
+					"jsonFile" : "target-harness_tls-Debug-617f93f1b217ad537da8.json",
+					"name" : "harness_tls",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "heap::@bb54266284e84a722211",
+					"jsonFile" : "target-heap-Debug-f341f84af559304406f2.json",
+					"name" : "heap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "heap_library::@bb54266284e84a722211",
+					"jsonFile" : "target-heap_library-Debug-d6d2d56a6e560cf2f2f0.json",
+					"name" : "heap_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "http_auth_backend::@791fe1f03827c85194f1",
+					"jsonFile" : "target-http_auth_backend-Debug-15204b943bc05820ad34.json",
+					"name" : "http_auth_backend",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "http_auth_backend_lib::@791fe1f03827c85194f1",
+					"jsonFile" : "target-http_auth_backend_lib-Debug-81949038214e24e4ff11.json",
+					"name" : "http_auth_backend_lib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "http_auth_realm::@791fe1f03827c85194f1",
+					"jsonFile" : "target-http_auth_realm-Debug-8d1c41b599d971336fb5.json",
+					"name" : "http_auth_realm",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "http_auth_realm_lib::@791fe1f03827c85194f1",
+					"jsonFile" : "target-http_auth_realm_lib-Debug-882cdfb6b8f5fd481442.json",
+					"name" : "http_auth_realm_lib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "http_client::@791fe1f03827c85194f1",
+					"jsonFile" : "target-http_client-Debug-0a50cb3976d1c0ed7cc1.json",
+					"name" : "http_client",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "http_common::@791fe1f03827c85194f1",
+					"jsonFile" : "target-http_common-Debug-24f821033017f8919197.json",
+					"name" : "http_common",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "http_server::@791fe1f03827c85194f1",
+					"jsonFile" : "target-http_server-Debug-66599c553e4687c9b14d.json",
+					"name" : "http_server",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "ibd2sdi::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-ibd2sdi-Debug-876c98ad47a3251d4798.json",
+					"name" : "ibd2sdi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "icui18n::@4a5945388c378cf2112c",
+					"jsonFile" : "target-icui18n-Debug-00000000000000000000.json",
+					"name" : "icui18n",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "icustubdata::@7189c7fcb56e1116784f",
+					"jsonFile" : "target-icustubdata-Debug-09632a019557ebba0fae.json",
+					"name" : "icustubdata",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "icuuc::@08fda7d1b8f98ae8b0e5",
+					"jsonFile" : "target-icuuc-Debug-00000000000000000000.json",
+					"name" : "icuuc",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "innobase::@8123eafe19b66234b7de",
+					"jsonFile" : "target-innobase-Debug-3356bf96acd44eaf870b.json",
+					"name" : "innobase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "innochecksum::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-innochecksum-Debug-00000000000000000000.json",
+					"name" : "innochecksum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "innodb_zipdecompress::@8123eafe19b66234b7de",
+					"jsonFile" : "target-innodb_zipdecompress-Debug-00000000000000000000.json",
+					"name" : "innodb_zipdecompress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 110,
+					"id" : "io::@47a215310b7df7f2b0d0",
+					"jsonFile" : "target-io-Debug-3883cef27ac57261ef9c.json",
+					"name" : "io",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 110,
+					"id" : "io_component::@47a215310b7df7f2b0d0",
+					"jsonFile" : "target-io_component-Debug-00000000000000000000.json",
+					"name" : "io_component",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "json_binlog::@b0c487aac068df482bf0",
+					"jsonFile" : "target-json_binlog-Debug-971230d9b7bd79798bf2.json",
+					"name" : "json_binlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "json_binlog_main::@b0c487aac068df482bf0",
+					"jsonFile" : "target-json_binlog_main-Debug-00000000000000000000.json",
+					"name" : "json_binlog_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "json_binlog_main_static::@b0c487aac068df482bf0",
+					"jsonFile" : "target-json_binlog_main_static-Debug-00000000000000000000.json",
+					"name" : "json_binlog_main_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "json_binlog_static::@b0c487aac068df482bf0",
+					"jsonFile" : "target-json_binlog_static-Debug-70f387c6f7f309710113.json",
+					"name" : "json_binlog_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "json_client_library::@b0c487aac068df482bf0",
+					"jsonFile" : "target-json_client_library-Debug-a41da51b1a6437f56c5a.json",
+					"name" : "json_client_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 111,
+					"id" : "json_schema_embedder::@f099ab6defa27b535d40",
+					"jsonFile" : "target-json_schema_embedder-Debug-7bf95947472d98bac2e7.json",
+					"name" : "json_schema_embedder",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 112,
+					"id" : "keepalive::@ad5e3fa667e5feea6a37",
+					"jsonFile" : "target-keepalive-Debug-4ce243597425f1d300c5.json",
+					"name" : "keepalive",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "keyring_common::@321230cdf7d699f1b680",
+					"jsonFile" : "target-keyring_common-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "keyring_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "keyring_file::@adfc3780cd036138c7d7",
+					"jsonFile" : "target-keyring_file-Debug-00000000000000000000.json",
+					"name" : "keyring_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "keyring_udf::@492e79483ebc87997cd7",
+					"jsonFile" : "target-keyring_udf-Debug-00000000000000000000.json",
+					"name" : "keyring_udf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libedit_common::@2298fb92a97434fbc6ac",
+					"jsonFile" : "target-libedit_common-Debug-9c9b255f89982c2fa643.json",
+					"name" : "libedit_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libedit_emacs::@2298fb92a97434fbc6ac",
+					"jsonFile" : "target-libedit_emacs-Debug-6d619c3016e475c6ccb4.json",
+					"name" : "libedit_emacs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libedit_fcns::@2298fb92a97434fbc6ac",
+					"jsonFile" : "target-libedit_fcns-Debug-1ab4bb5810905c7179bc.json",
+					"name" : "libedit_fcns",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libedit_func::@2298fb92a97434fbc6ac",
+					"jsonFile" : "target-libedit_func-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "libedit_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libedit_help::@2298fb92a97434fbc6ac",
+					"jsonFile" : "target-libedit_help-Debug-146c84f5738aead88af5.json",
+					"name" : "libedit_help",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libedit_vi::@2298fb92a97434fbc6ac",
+					"jsonFile" : "target-libedit_vi-Debug-7834496a6cefd860238e.json",
+					"name" : "libedit_vi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "libmysql::@804198ce8b9bd67f3a0d",
+					"jsonFile" : "target-libmysql-Debug-d77735fd8887746300a2.json",
+					"name" : "libmysql",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "libmysql_api_test::@804198ce8b9bd67f3a0d",
+					"jsonFile" : "target-libmysql_api_test-Debug-00000000000000000000.json",
+					"name" : "libmysql_api_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "libmysqlgcs::@0943ec7f8775def64fa6",
+					"jsonFile" : "target-libmysqlgcs-Debug-d50c6a408e16df34702a.json",
+					"name" : "libmysqlgcs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libprotobuf::@5efc4188214cab06c19b",
+					"jsonFile" : "target-libprotobuf-Debug-00000000000000000000.json",
+					"name" : "libprotobuf",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libprotobuf-lite::@5efc4188214cab06c19b",
+					"jsonFile" : "target-libprotobuf-lite-Debug-00000000000000000000.json",
+					"name" : "libprotobuf-lite",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "libprotoc::@5efc4188214cab06c19b",
+					"jsonFile" : "target-libprotoc-Debug-00000000000000000000.json",
+					"name" : "libprotoc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "library_mysys::@a30eff1065bb5d262078",
+					"jsonFile" : "target-library_mysys-Debug-42bd5d61b96954104421.json",
+					"name" : "library_mysys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "link_fido2_dlls_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-link_fido2_dlls_plugin-Debug-51e621781771f9dfff39.json",
+					"name" : "link_fido2_dlls_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "link_fido2_dlls_plugin_install::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-link_fido2_dlls_plugin_install-Debug-f771be851d8b362219d5.json",
+					"name" : "link_fido2_dlls_plugin_install",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "link_openssl_dlls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-link_openssl_dlls-Debug-94a28af689aa94723093.json",
+					"name" : "link_openssl_dlls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "link_openssl_dlls_for_install::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-link_openssl_dlls_for_install-Debug-7afd354603c5eb866504.json",
+					"name" : "link_openssl_dlls_for_install",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 103,
+					"id" : "link_openssl_dlls_for_install_mysqlrouter::@f62153e3e02b13407cb8",
+					"jsonFile" : "target-link_openssl_dlls_for_install_mysqlrouter-Debug-f93e1e53162ac0b5b2eb.json",
+					"name" : "link_openssl_dlls_for_install_mysqlrouter",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "link_protobuf_dlls_bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-link_protobuf_dlls_bin-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "link_protobuf_dlls_bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "link_protobuf_dlls_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-link_protobuf_dlls_plugin-Debug-f3033c27669342e25518.json",
+					"name" : "link_protobuf_dlls_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "link_protobuf_dlls_plugin_install::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-link_protobuf_dlls_plugin_install-Debug-5501a7f2b9d7946a0ca2.json",
+					"name" : "link_protobuf_dlls_plugin_install",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "locking_service::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-locking_service-Debug-8770babf88e826f183dd.json",
+					"name" : "locking_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "lz4_decompress::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-lz4_decompress-Debug-00000000000000000000.json",
+					"name" : "lz4_decompress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lz4_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lz4_lib-Debug-00000000000000000000.json",
+					"name" : "lz4_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "master::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-master-Debug-20b668a14eeec1453666.json",
+					"name" : "master",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 113,
+					"id" : "metadata_cache::@1be683531546af077ba7",
+					"jsonFile" : "target-metadata_cache-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "metadata_cache",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "mf_iocache_test::@64e0e5023d60a36b555e",
+					"jsonFile" : "target-mf_iocache_test-Debug-00000000000000000000.json",
+					"name" : "mf_iocache_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "minchassis::@3510df0e258f35f0ce2f",
+					"jsonFile" : "target-minchassis-Debug-9f0eaec7a8d7283a7e48.json",
+					"name" : "minchassis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "mock::@1237fb39975b8ecf2699",
+					"jsonFile" : "target-mock-Debug-00000000000000000000.json",
+					"name" : "mock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 115,
+					"id" : "mock_server::@09c51ce0bca0d324c59e",
+					"jsonFile" : "target-mock_server-Debug-00000000000000000000.json",
+					"name" : "mock_server",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 115,
+					"id" : "mock_server_rest_client::@09c51ce0bca0d324c59e",
+					"jsonFile" : "target-mock_server_rest_client-Debug-7dae8671b6d8c8b11888.json",
+					"name" : "mock_server_rest_client",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "my_print_defaults::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-my_print_defaults-Debug-00000000000000000000.json",
+					"name" : "my_print_defaults",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "myisam::@a51e6dff989a3e96f0ee",
+					"jsonFile" : "target-myisam-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "myisam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "myisam_ftdump::@a51e6dff989a3e96f0ee",
+					"jsonFile" : "target-myisam_ftdump-Debug-00000000000000000000.json",
+					"name" : "myisam_ftdump",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "myisam_library::@a51e6dff989a3e96f0ee",
+					"jsonFile" : "target-myisam_library-Debug-00000000000000000000.json",
+					"name" : "myisam_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "myisamchk::@a51e6dff989a3e96f0ee",
+					"jsonFile" : "target-myisamchk-Debug-ff1410f04d0619661ad6.json",
+					"name" : "myisamchk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "myisamlog::@a51e6dff989a3e96f0ee",
+					"jsonFile" : "target-myisamlog-Debug-2e1042da8a11bb2804ff.json",
+					"name" : "myisamlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "myisammrg::@efff744f1108af639037",
+					"jsonFile" : "target-myisammrg-Debug-8697a1f353a0e6e4c6a8.json",
+					"name" : "myisammrg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "myisampack::@a51e6dff989a3e96f0ee",
+					"jsonFile" : "target-myisampack-Debug-00000000000000000000.json",
+					"name" : "myisampack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysql::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysql-Debug-00000000000000000000.json",
+					"name" : "mysql",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 93,
+					"id" : "mysql_client_test::@d8f2b1a4fb51917adc75",
+					"jsonFile" : "target-mysql_client_test-Debug-b97cb3ce25debe8b6f9d.json",
+					"name" : "mysql_client_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysql_config_editor::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysql_config_editor-Debug-bec5297418f197d3c086.json",
+					"name" : "mysql_config_editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "mysql_keyring_encryption_test::@adf860d01044c33e9d0b",
+					"jsonFile" : "target-mysql_keyring_encryption_test-Debug-00000000000000000000.json",
+					"name" : "mysql_keyring_encryption_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 89,
+					"id" : "mysql_migrate_keyring::@9e4471224b4301b54634",
+					"jsonFile" : "target-mysql_migrate_keyring-Debug-0c995b01ce7fb8d785a5.json",
+					"name" : "mysql_migrate_keyring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "mysql_no_login::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-mysql_no_login-Debug-62e00ce9f398ae6e4811.json",
+					"name" : "mysql_no_login",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysql_secure_installation::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysql_secure_installation-Debug-9fe1f9652f78d75853d3.json",
+					"name" : "mysql_secure_installation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "mysql_server_component_services::@a000426781dafe198881",
+					"jsonFile" : "target-mysql_server_component_services-Debug-00000000000000000000.json",
+					"name" : "mysql_server_component_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 115,
+					"id" : "mysql_server_mock::@09c51ce0bca0d324c59e",
+					"jsonFile" : "target-mysql_server_mock-Debug-69112df926596e204059.json",
+					"name" : "mysql_server_mock",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysql_ssl_rsa_setup::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysql_ssl_rsa_setup-Debug-4a291397817327f26c6a.json",
+					"name" : "mysql_ssl_rsa_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "mysql_tzinfo_to_sql::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-mysql_tzinfo_to_sql-Debug-24908d942c781faae26b.json",
+					"name" : "mysql_tzinfo_to_sql",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysql_upgrade::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysql_upgrade-Debug-8f9538da957991c23ecc.json",
+					"name" : "mysql_upgrade",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqladmin::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqladmin-Debug-a7ffc6f8bf1ed76651c1.json",
+					"name" : "mysqladmin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqlbinlog::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqlbinlog-Debug-d68fc43324b0513ac5b9.json",
+					"name" : "mysqlbinlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqlcheck::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqlcheck-Debug-40431f03b72f0117e4d2.json",
+					"name" : "mysqlcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "mysqlclient::@804198ce8b9bd67f3a0d",
+					"jsonFile" : "target-mysqlclient-Debug-a7a50aff37360be2bd8b.json",
+					"name" : "mysqlclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "mysqld::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-mysqld-Debug-7706fbad5530f4c75670.json",
+					"name" : "mysqld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqldump::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqldump-Debug-00000000000000000000.json",
+					"name" : "mysqldump",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "mysqlgcs::@0943ec7f8775def64fa6",
+					"jsonFile" : "target-mysqlgcs-Debug-99add1641d623ed7fa96.json",
+					"name" : "mysqlgcs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqlimport::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqlimport-Debug-7b757bc87236a1c22be2.json",
+					"name" : "mysqlimport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "mysqlpump::@8ee55e1ccce08a4c2877",
+					"jsonFile" : "target-mysqlpump-Debug-da9f1e68081fa58fd42d.json",
+					"name" : "mysqlpump",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "mysqlpump_lib::@8ee55e1ccce08a4c2877",
+					"jsonFile" : "target-mysqlpump_lib-Debug-e45410ea679b8914c1d2.json",
+					"name" : "mysqlpump_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 132,
+					"id" : "mysqlrouter::@6ed13d653485996da371",
+					"jsonFile" : "target-mysqlrouter-Debug-e851dcae57fd8308b324.json",
+					"name" : "mysqlrouter",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 102,
+					"id" : "mysqlrouter_all::@ae48964325684403f423",
+					"jsonFile" : "target-mysqlrouter_all-Debug-6bdd7e4934c7a3eb0cd2.json",
+					"name" : "mysqlrouter_all",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 132,
+					"id" : "mysqlrouter_keyring::@6ed13d653485996da371",
+					"jsonFile" : "target-mysqlrouter_keyring-Debug-a46d8fc8c83f76238b2e.json",
+					"name" : "mysqlrouter_keyring",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "mysqlrouter_passwd::@791fe1f03827c85194f1",
+					"jsonFile" : "target-mysqlrouter_passwd-Debug-299b6f28094617132111.json",
+					"name" : "mysqlrouter_passwd",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 120,
+					"id" : "mysqlrouter_plugin_info::@3fb745bf54d42dd38894",
+					"jsonFile" : "target-mysqlrouter_plugin_info-Debug-8602ee229f3f2865c8e8.json",
+					"name" : "mysqlrouter_plugin_info",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 92,
+					"id" : "mysqlservices::@233cd6268913a4411699",
+					"jsonFile" : "target-mysqlservices-Debug-edca8bff4b417e86c4b2.json",
+					"name" : "mysqlservices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqlshow::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqlshow-Debug-6348efcce426c4b03df2.json",
+					"name" : "mysqlshow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqlslap::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqlslap-Debug-f1d94cd8c7507cf28250.json",
+					"name" : "mysqlslap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "mysqltest::@b0c487aac068df482bf0",
+					"jsonFile" : "target-mysqltest-Debug-e83c9090e90118293e26.json",
+					"name" : "mysqltest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 100,
+					"id" : "mysqltest_safe_process::@a808feb0b46dc48aad10",
+					"jsonFile" : "target-mysqltest_safe_process-Debug-cc92a964ca286cdb61d4.json",
+					"name" : "mysqltest_safe_process",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "mysqlx::@7cfd4152fef9b0f2a0b9",
+					"jsonFile" : "target-mysqlx-Debug-61aa5a7b9adefac0ed5c.json",
+					"name" : "mysqlx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "mysqlxclient::@947b025564ed2fabfc0b",
+					"jsonFile" : "target-mysqlxclient-Debug-7b07b6f7ac116e88f5b1.json",
+					"name" : "mysqlxclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "mysqlxclient_lite::@947b025564ed2fabfc0b",
+					"jsonFile" : "target-mysqlxclient_lite-Debug-7b486e50b102f6ed41cc.json",
+					"name" : "mysqlxclient_lite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "mysqlxmessages::@0fd4830209ca3980be17",
+					"jsonFile" : "target-mysqlxmessages-Debug-dcedc5be884fdaa70ca1.json",
+					"name" : "mysqlxmessages",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "mysqlxmessages_lite::@0fd4830209ca3980be17",
+					"jsonFile" : "target-mysqlxmessages_lite-Debug-f4ecf6de94a735765a30.json",
+					"name" : "mysqlxmessages_lite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "mysqlxtest::@5ed7974531d19c1b2dfb",
+					"jsonFile" : "target-mysqlxtest-Debug-05ad6bf9c656971b66ad.json",
+					"name" : "mysqlxtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "mysys::@64e0e5023d60a36b555e",
+					"jsonFile" : "target-mysys-Debug-dc224c17f4c3e330e8de.json",
+					"name" : "mysys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "mytime::@64e0e5023d60a36b555e",
+					"jsonFile" : "target-mytime-Debug-7098409787d7fc7bb2eb.json",
+					"name" : "mytime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "ngram_parser::@5cea746ce5de5d66e1e7",
+					"jsonFile" : "target-ngram_parser-Debug-1e6bd0cf7efc4b614298.json",
+					"name" : "ngram_parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "perfschema::@7a73c12e406e924f5617",
+					"jsonFile" : "target-perfschema-Debug-4bfd479c68071b5d7d25.json",
+					"name" : "perfschema",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "perror::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-perror-Debug-5123bc3e726d3db950c1.json",
+					"name" : "perror",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "pfs_example_plugin_employee::@34a785dc9162637e6d2e",
+					"jsonFile" : "target-pfs_example_plugin_employee-Debug-3d840d8b112a7f44b7c6.json",
+					"name" : "pfs_example_plugin_employee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "protoc::@5efc4188214cab06c19b",
+					"jsonFile" : "target-protoc-Debug-105b456b00b2e8172d48.json",
+					"name" : "protoc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "qa_auth_client::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-qa_auth_client-Debug-bbe4d255ea8851cf5487.json",
+					"name" : "qa_auth_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "qa_auth_interface::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-qa_auth_interface-Debug-633c32c4e0790dfcdcfa.json",
+					"name" : "qa_auth_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "qa_auth_server::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-qa_auth_server-Debug-a20ddf6a76bb1df1b09f.json",
+					"name" : "qa_auth_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "range_check_err::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-range_check_err-Debug-b681cc77315eee1ce96e.json",
+					"name" : "range_check_err",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "replication_observers_example::@f0c6554770a7da813667",
+					"jsonFile" : "target-replication_observers_example-Debug-c72c2bcbb580c1b58445.json",
+					"name" : "replication_observers_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 124,
+					"id" : "rest_api::@b0207d5adfce3a3bca92",
+					"jsonFile" : "target-rest_api-Debug-11c9d0264585f8df2536.json",
+					"name" : "rest_api",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 124,
+					"id" : "rest_api_lib::@b0207d5adfce3a3bca92",
+					"jsonFile" : "target-rest_api_lib-Debug-abbee2927ca2906e583e.json",
+					"name" : "rest_api_lib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 108,
+					"id" : "rest_cli::@791fe1f03827c85194f1",
+					"jsonFile" : "target-rest_cli-Debug-ea7ac2a9454e18dcf305.json",
+					"name" : "rest_cli",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 126,
+					"id" : "rest_metadata_cache::@d06300f3aee16bdc8c04",
+					"jsonFile" : "target-rest_metadata_cache-Debug-88cb76a0b6f24daeb389.json",
+					"name" : "rest_metadata_cache",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 115,
+					"id" : "rest_mock_server::@09c51ce0bca0d324c59e",
+					"jsonFile" : "target-rest_mock_server-Debug-edf0db74bd025bfcd0bb.json",
+					"name" : "rest_mock_server",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 128,
+					"id" : "rest_router::@00ce049dd56f4e1f180f",
+					"jsonFile" : "target-rest_router-Debug-2f73008d8cc05095facb.json",
+					"name" : "rest_router",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 130,
+					"id" : "rest_routing::@1363964c9ba473b4f5b1",
+					"jsonFile" : "target-rest_routing-Debug-fa51d2fbc92de78401a6.json",
+					"name" : "rest_routing",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "rewrite_example::@2f43fa775b9bbb4a4433",
+					"jsonFile" : "target-rewrite_example-Debug-d858b33bfe929ff7aa4c.json",
+					"name" : "rewrite_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "rewriter::@e4bc5a548106914cc64f",
+					"jsonFile" : "target-rewriter-Debug-cb0dd0f8b4cc3eca39ed.json",
+					"name" : "rewriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 132,
+					"id" : "router_lib::@6ed13d653485996da371",
+					"jsonFile" : "target-router_lib-Debug-69bd1f69ca29fc56d1a8.json",
+					"name" : "router_lib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 118,
+					"id" : "router_openssl::@0ab6a84a83e0f53b073d",
+					"jsonFile" : "target-router_openssl-Debug-705a5a1e5c25d19e4b38.json",
+					"name" : "router_openssl",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 122,
+					"id" : "router_protobuf::@f5d528676b76cb1b7295",
+					"jsonFile" : "target-router_protobuf-Debug-a4793043aef7c83c91f6.json",
+					"name" : "router_protobuf",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 133,
+					"id" : "routing::@3e867bd39c2841843311",
+					"jsonFile" : "target-routing-Debug-12d6ee5106826d4eba23.json",
+					"name" : "routing",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "rpl::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-rpl-Debug-234c83fa19df96349960.json",
+					"name" : "rpl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "rpl_protobuf_lite::@a0ab54e7738c6b465057",
+					"jsonFile" : "target-rpl_protobuf_lite-Debug-6d327f69c0955a50db38.json",
+					"name" : "rpl_protobuf_lite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "semisync_master::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-semisync_master-Debug-9c836729953023e066f0.json",
+					"name" : "semisync_master",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "semisync_replica::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-semisync_replica-Debug-e2afa4482467d4b40375.json",
+					"name" : "semisync_replica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "semisync_slave::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-semisync_slave-Debug-bd793c3d940b60a675c4.json",
+					"name" : "semisync_slave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "semisync_source::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-semisync_source-Debug-428895befd918fa8d787.json",
+					"name" : "semisync_source",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "show-dist-name::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-show-dist-name-Debug-6f8f01433614a7d98217.json",
+					"name" : "show-dist-name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "show_audit_null::@c34071285110d5fbf9c9",
+					"jsonFile" : "target-show_audit_null-Debug-130a2e544f74f8fa0646.json",
+					"name" : "show_audit_null",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "show_auth::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-show_auth-Debug-c9ee911c9c0755498407.json",
+					"name" : "show_auth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "show_auth_test_plugin::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-show_auth_test_plugin-Debug-9f2a1979009e01f506b4.json",
+					"name" : "show_auth_test_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "show_boost_patches::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-show_boost_patches-Debug-43707780c8529be1bac8.json",
+					"name" : "show_boost_patches",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "show_clone::@0bf955eb37e65c838e15",
+					"jsonFile" : "target-show_clone-Debug-d93a0ffd5798052baf22.json",
+					"name" : "show_clone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "show_connection_control::@bc31871660e2cb639c5d",
+					"jsonFile" : "target-show_connection_control-Debug-a99959a4d62e5c3514cc.json",
+					"name" : "show_connection_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "show_daemon_example::@4b29463cd026a5510fc3",
+					"jsonFile" : "target-show_daemon_example-Debug-91955c59e598ccc0f983.json",
+					"name" : "show_daemon_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "show_ddl_rewriter::@30f638432b660b4c0b51",
+					"jsonFile" : "target-show_ddl_rewriter-Debug-66a6682ab1cd3dd5de78.json",
+					"name" : "show_ddl_rewriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "show_example::@2d045fde9aab95842df1",
+					"jsonFile" : "target-show_example-Debug-2dab0e1ca0207a77f07d.json",
+					"name" : "show_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "show_ftexample::@5cea746ce5de5d66e1e7",
+					"jsonFile" : "target-show_ftexample-Debug-3f9fb4a268be670ad5ba.json",
+					"name" : "show_ftexample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "show_group_replication::@b3c0bd3bd661b2f6c124",
+					"jsonFile" : "target-show_group_replication-Debug-30dc8ee5147ffa90c95b.json",
+					"name" : "show_group_replication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "show_json_binlog::@b0c487aac068df482bf0",
+					"jsonFile" : "target-show_json_binlog-Debug-74ae29e15e5abc8f5ee4.json",
+					"name" : "show_json_binlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "show_keyring_file::@adfc3780cd036138c7d7",
+					"jsonFile" : "target-show_keyring_file-Debug-a7e96b81fa4ec0d51edb.json",
+					"name" : "show_keyring_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "show_keyring_udf::@492e79483ebc87997cd7",
+					"jsonFile" : "target-show_keyring_udf-Debug-786a4d4b33e4656564e4.json",
+					"name" : "show_keyring_udf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "show_libmysql::@804198ce8b9bd67f3a0d",
+					"jsonFile" : "target-show_libmysql-Debug-576636095f36ee706904.json",
+					"name" : "show_libmysql",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "show_locking_service::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-show_locking_service-Debug-7c34a2cbbb2a825c2aaf.json",
+					"name" : "show_locking_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "show_mock::@1237fb39975b8ecf2699",
+					"jsonFile" : "target-show_mock-Debug-647010efed196b23eaa9.json",
+					"name" : "show_mock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "show_mysql_no_login::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-show_mysql_no_login-Debug-93d3a45e2bffa1243501.json",
+					"name" : "show_mysql_no_login",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "show_pfs_example_plugin_employee::@34a785dc9162637e6d2e",
+					"jsonFile" : "target-show_pfs_example_plugin_employee-Debug-28b265e87d00fa0cedce.json",
+					"name" : "show_pfs_example_plugin_employee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "show_qa_auth_client::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-show_qa_auth_client-Debug-66880c7aa8d367d38360.json",
+					"name" : "show_qa_auth_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "show_qa_auth_interface::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-show_qa_auth_interface-Debug-a270f3b0870543471f53.json",
+					"name" : "show_qa_auth_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "show_qa_auth_server::@30dff829e8d5e8a1e669",
+					"jsonFile" : "target-show_qa_auth_server-Debug-2f3f537c536bc347590d.json",
+					"name" : "show_qa_auth_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "show_replication_observers_example::@f0c6554770a7da813667",
+					"jsonFile" : "target-show_replication_observers_example-Debug-91e3f3ddaf1b791ff8e8.json",
+					"name" : "show_replication_observers_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "show_rewrite_example::@2f43fa775b9bbb4a4433",
+					"jsonFile" : "target-show_rewrite_example-Debug-8a31a585657b99fbe7dd.json",
+					"name" : "show_rewrite_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "show_rewriter::@e4bc5a548106914cc64f",
+					"jsonFile" : "target-show_rewriter-Debug-1ad0da86eac87aafff3b.json",
+					"name" : "show_rewriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "show_semisync_master::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-show_semisync_master-Debug-1eef74bc2cb785404a17.json",
+					"name" : "show_semisync_master",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "show_semisync_replica::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-show_semisync_replica-Debug-53904398f17f15324a51.json",
+					"name" : "show_semisync_replica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "show_semisync_slave::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-show_semisync_slave-Debug-89e9f7af2c63e3286c8b.json",
+					"name" : "show_semisync_slave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "show_semisync_source::@4929b039a5dc64b6eb12",
+					"jsonFile" : "target-show_semisync_source-Debug-1e58523b62b3d697d4b6.json",
+					"name" : "show_semisync_source",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "show_test_framework::@412832937763323c9d23",
+					"jsonFile" : "target-show_test_framework-Debug-def732ffe7edc6b9bef3.json",
+					"name" : "show_test_framework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "show_test_security_context::@c34071285110d5fbf9c9",
+					"jsonFile" : "target-show_test_security_context-Debug-5585837586c9ca1997dc.json",
+					"name" : "show_test_security_context",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "show_test_services::@412832937763323c9d23",
+					"jsonFile" : "target-show_test_services-Debug-32b55734acf186e3ad13.json",
+					"name" : "show_test_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "show_test_services_host_application_signal::@412832937763323c9d23",
+					"jsonFile" : "target-show_test_services_host_application_signal-Debug-c140a4696e3beee6dd9c.json",
+					"name" : "show_test_services_host_application_signal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "show_test_services_plugin_registry::@412832937763323c9d23",
+					"jsonFile" : "target-show_test_services_plugin_registry-Debug-2071d2d28aaee92c1763.json",
+					"name" : "show_test_services_plugin_registry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "show_test_services_thread::@412832937763323c9d23",
+					"jsonFile" : "target-show_test_services_thread-Debug-6dc1eafd92b35b972866.json",
+					"name" : "show_test_services_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_session_attach::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_session_attach-Debug-09afc621a70e16fb43b1.json",
+					"name" : "show_test_session_attach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_session_detach::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_session_detach-Debug-9727ce4b5e2489557763.json",
+					"name" : "show_test_session_detach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_session_in_thd::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_session_in_thd-Debug-96c12df16634d7090368.json",
+					"name" : "show_test_session_in_thd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_session_info::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_session_info-Debug-f80be949448de29342eb.json",
+					"name" : "show_test_session_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_2_sessions::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_2_sessions-Debug-d772edcc6b7a0fb600b5.json",
+					"name" : "show_test_sql_2_sessions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_all_col_types::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_all_col_types-Debug-74d19a19d500e1493afb.json",
+					"name" : "show_test_sql_all_col_types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_cmds_1::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_cmds_1-Debug-6d5d686bcc36172a640f.json",
+					"name" : "show_test_sql_cmds_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_commit::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_commit-Debug-c5c817bf26d7f90d97b2.json",
+					"name" : "show_test_sql_commit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_complex::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_complex-Debug-cd59d516018d881655ab.json",
+					"name" : "show_test_sql_complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_errors::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_errors-Debug-05105c289e572bee8a5e.json",
+					"name" : "show_test_sql_errors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_lock::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_lock-Debug-dfba0664a8a638963dd3.json",
+					"name" : "show_test_sql_lock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_processlist::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_processlist-Debug-0e9070ab8663e99eed63.json",
+					"name" : "show_test_sql_processlist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_replication::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_replication-Debug-7311d9172f78e2f79bde.json",
+					"name" : "show_test_sql_replication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_reset_connection::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_reset_connection-Debug-2d0ed6851c3428c6c380.json",
+					"name" : "show_test_sql_reset_connection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_shutdown::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_shutdown-Debug-ee4066b1a937e9ef87b9.json",
+					"name" : "show_test_sql_shutdown",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_sleep_is_connected::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_sleep_is_connected-Debug-07c49d0d3464d00c3ef5.json",
+					"name" : "show_test_sql_sleep_is_connected",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_sqlmode::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_sqlmode-Debug-069fdaf7e4b7f987eed5.json",
+					"name" : "show_test_sql_sqlmode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_stmt::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_stmt-Debug-c806d460a6c3708fb019.json",
+					"name" : "show_test_sql_stmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_stored_procedures_functions::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_stored_procedures_functions-Debug-0141b49d5d2ba4622c0c.json",
+					"name" : "show_test_sql_stored_procedures_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_sql_views_triggers::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_sql_views_triggers-Debug-d89a638d835a9984d0f6.json",
+					"name" : "show_test_sql_views_triggers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "show_test_udf_services::@c941bafeaf68f65909f8",
+					"jsonFile" : "target-show_test_udf_services-Debug-26985e735b524250fbf9.json",
+					"name" : "show_test_udf_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_x_sessions_deinit::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_x_sessions_deinit-Debug-9abbe696f4d7a7689373.json",
+					"name" : "show_test_x_sessions_deinit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "show_test_x_sessions_init::@e595f519e2adfbd13092",
+					"jsonFile" : "target-show_test_x_sessions_init-Debug-886cb5c6aa4041c55653.json",
+					"name" : "show_test_x_sessions_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "show_udf_example::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-show_udf_example-Debug-77863e28adecaebd94ae.json",
+					"name" : "show_udf_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "show_validate_password::@dd96855c27f1ee679834",
+					"jsonFile" : "target-show_validate_password-Debug-9c33b9f58377bf44f874.json",
+					"name" : "show_validate_password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "show_version_token::@30db872064b0c679f065",
+					"jsonFile" : "target-show_version_token-Debug-5b8149fe1b20e8297c70.json",
+					"name" : "show_version_token",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "slave::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-slave-Debug-6299344ebbdeb322a4e8.json",
+					"name" : "slave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 98,
+					"id" : "sql_commands::@7ed8a01c35c996bc5d71",
+					"jsonFile" : "target-sql_commands-Debug-226a06da564f969b83ee.json",
+					"name" : "sql_commands",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "sql_dd::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-sql_dd-Debug-1070e999582e258eeb5d.json",
+					"name" : "sql_dd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "sql_gis::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-sql_gis-Debug-ef9a02ce6e88a39f9962.json",
+					"name" : "sql_gis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "sql_main::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-sql_main-Debug-3c92b0d63a73314f124b.json",
+					"name" : "sql_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "static_thread_local_test::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-static_thread_local_test-Debug-e7458f54d36c1501af2c.json",
+					"name" : "static_thread_local_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "strings::@89d0016ae4e25e06fd39",
+					"jsonFile" : "target-strings-Debug-f1957a3f4d6becb6e0ff.json",
+					"name" : "strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "symlink_fido2_dlls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-symlink_fido2_dlls-Debug-1b3b4518c27fa92c5e11.json",
+					"name" : "symlink_fido2_dlls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "symlink_protobuf_dlls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-symlink_protobuf_dlls-Debug-621e5a406ebe394a9b4b.json",
+					"name" : "symlink_protobuf_dlls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tags::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tags-Debug-66599c553e4687c9b14d.json",
+					"name" : "tags",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "temptable::@4b138bdd1d62f50b8d8b",
+					"jsonFile" : "target-temptable-Debug-077975fa5285edd34ccc.json",
+					"name" : "temptable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 99,
+					"id" : "test-mtr::@9a2645ac882908058961",
+					"jsonFile" : "target-test-mtr-Debug-876c98ad47a3251d4798.json",
+					"name" : "test-mtr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "test_framework::@412832937763323c9d23",
+					"jsonFile" : "target-test_framework-Debug-db17a16f4c5748b75df1.json",
+					"name" : "test_framework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "test_security_context::@c34071285110d5fbf9c9",
+					"jsonFile" : "target-test_security_context-Debug-ea4da167fd74ef890444.json",
+					"name" : "test_security_context",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "test_services::@412832937763323c9d23",
+					"jsonFile" : "target-test_services-Debug-f8c89ad8852eeec319cd.json",
+					"name" : "test_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "test_services_host_application_signal::@412832937763323c9d23",
+					"jsonFile" : "target-test_services_host_application_signal-Debug-2dab1d96003e23e980f5.json",
+					"name" : "test_services_host_application_signal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "test_services_plugin_registry::@412832937763323c9d23",
+					"jsonFile" : "target-test_services_plugin_registry-Debug-fd1b294157ada8161baa.json",
+					"name" : "test_services_plugin_registry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "test_services_thread::@412832937763323c9d23",
+					"jsonFile" : "target-test_services_thread-Debug-d406f44cf5670ce2d741.json",
+					"name" : "test_services_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_session_attach::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_session_attach-Debug-1bee6e8ce30d08315684.json",
+					"name" : "test_session_attach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_session_detach::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_session_detach-Debug-a277074d3e518815f4ad.json",
+					"name" : "test_session_detach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_session_in_thd::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_session_in_thd-Debug-5df36beb44024498572d.json",
+					"name" : "test_session_in_thd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_session_info::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_session_info-Debug-9e5b4dff97aee5a09da5.json",
+					"name" : "test_session_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_2_sessions::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_2_sessions-Debug-e3ebf993c2667b9e57cc.json",
+					"name" : "test_sql_2_sessions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_all_col_types::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_all_col_types-Debug-e2d8c3019013b6031cd6.json",
+					"name" : "test_sql_all_col_types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_cmds_1::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_cmds_1-Debug-8627f237592deb2679dc.json",
+					"name" : "test_sql_cmds_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_commit::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_commit-Debug-b53512c443ab01aef562.json",
+					"name" : "test_sql_commit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_complex::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_complex-Debug-c0558f7031dc431b3702.json",
+					"name" : "test_sql_complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_errors::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_errors-Debug-2e9ed670f101e31a5830.json",
+					"name" : "test_sql_errors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_lock::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_lock-Debug-5aed726d640d2de1571c.json",
+					"name" : "test_sql_lock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_processlist::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_processlist-Debug-4b3d972fad5e9c250cda.json",
+					"name" : "test_sql_processlist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_replication::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_replication-Debug-6a446db4171dfdd9cf32.json",
+					"name" : "test_sql_replication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_reset_connection::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_reset_connection-Debug-cbf136e68c221faef872.json",
+					"name" : "test_sql_reset_connection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_shutdown::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_shutdown-Debug-e49d293875e0318ec23a.json",
+					"name" : "test_sql_shutdown",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_sleep_is_connected::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_sleep_is_connected-Debug-c2bdfd0bac2fabe349af.json",
+					"name" : "test_sql_sleep_is_connected",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_sqlmode::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_sqlmode-Debug-40eb79167d8f5174a986.json",
+					"name" : "test_sql_sqlmode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_stmt::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_stmt-Debug-a33b00ae63d40d15dc95.json",
+					"name" : "test_sql_stmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_stored_procedures_functions::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_stored_procedures_functions-Debug-d4e233271363884d4730.json",
+					"name" : "test_sql_stored_procedures_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_sql_views_triggers::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_sql_views_triggers-Debug-94e8ccc232c05579a1a6.json",
+					"name" : "test_sql_views_triggers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "test_udf_services::@c941bafeaf68f65909f8",
+					"jsonFile" : "target-test_udf_services-Debug-da4e2b2545b9d7290f76.json",
+					"name" : "test_udf_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_x_sessions_deinit::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_x_sessions_deinit-Debug-975cf25c5b57125b84c2.json",
+					"name" : "test_x_sessions_deinit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "test_x_sessions_init::@e595f519e2adfbd13092",
+					"jsonFile" : "target-test_x_sessions_init-Debug-00b398469b6bb486767a.json",
+					"name" : "test_x_sessions_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "thr_lock::@64e0e5023d60a36b555e",
+					"jsonFile" : "target-thr_lock-Debug-a82c24dc019ebb4c1a5b.json",
+					"name" : "thr_lock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "uca9dump::@89d0016ae4e25e06fd39",
+					"jsonFile" : "target-uca9dump-Debug-901f04b4ffa4cdf706b2.json",
+					"name" : "uca9dump",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "udf_example::@e985624cb5cf1aba6ab1",
+					"jsonFile" : "target-udf_example-Debug-7a841c1783eacee72842.json",
+					"name" : "udf_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "validate_password::@dd96855c27f1ee679834",
+					"jsonFile" : "target-validate_password-Debug-63f9e635789404c4fc36.json",
+					"name" : "validate_password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "version_token::@30db872064b0c679f065",
+					"jsonFile" : "target-version_token-Debug-51ea8c8e9ca99a328190.json",
+					"name" : "version_token",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "vio::@c062e1da8e129617a875",
+					"jsonFile" : "target-vio-Debug-bf9f10df0c5070095070.json",
+					"name" : "vio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "xprotocol_plugin::@a6639a947f5b90e4f724",
+					"jsonFile" : "target-xprotocol_plugin-Debug-b7c9d4e0a41ab1512722.json",
+					"name" : "xprotocol_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "xprotocol_tags::@a6639a947f5b90e4f724",
+					"jsonFile" : "target-xprotocol_tags-Debug-e21a89de8767974e2459.json",
+					"name" : "xprotocol_tags",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zlib::@2eaf306a6176a11e4702",
+					"jsonFile" : "target-zlib-Debug-5501a7f2b9d7946a0ca2.json",
+					"name" : "zlib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "zlib_decompress::@d3b0ab015cfc9b043577",
+					"jsonFile" : "target-zlib_decompress-Debug-8770babf88e826f183dd.json",
+					"name" : "zlib_decompress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "zstd::@4852f3e90c5b3a8fc4e8",
+					"jsonFile" : "target-zstd-Debug-292fa9aef28c9d8677c7.json",
+					"name" : "zstd",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/heidsoft/Downloads/research/mysql-8.0.27/build",
+		"source" : "/Users/heidsoft/Downloads/research/mysql-8.0.27"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

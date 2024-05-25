@@ -1,0 +1,2 @@
+/usr/bin/ar qc libicustubdata.a CMakeFiles/icustubdata.dir/stubdata.cpp.o
+/usr/bin/ranlib libicustubdata.a

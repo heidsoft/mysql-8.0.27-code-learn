@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/routing_tests.dir/__/src/basic_protocol_splicer.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/basic_protocol_splicer.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/channel.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/channel.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/classic_protocol_splicer.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/classic_protocol_splicer.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/connection_container.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/connection_container.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/context.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/context.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/dest_first_available.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/dest_first_available.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/dest_metadata_cache.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/dest_metadata_cache.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/dest_next_available.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/dest_next_available.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/dest_round_robin.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/dest_round_robin.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/destination.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/destination.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/destination_ssl_context.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/destination_ssl_context.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/mysql_routing.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/mysql_routing.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/mysql_routing_common.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/mysql_routing_common.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/routing.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/routing.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/routing_component.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/routing_component.cc.o.d"
+  "CMakeFiles/routing_tests.dir/__/src/x_protocol_splicer.cc.o"
+  "CMakeFiles/routing_tests.dir/__/src/x_protocol_splicer.cc.o.d"
+  "librouting_tests.a"
+  "librouting_tests.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/routing_tests.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

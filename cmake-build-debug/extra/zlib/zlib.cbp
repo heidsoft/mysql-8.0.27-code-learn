@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\extra\;CMake Files\extra\icu\;CMake Files\extra\icu\source\;CMake Files\extra\icu\source\common\;CMake Files\extra\icu\source\i18n\;CMake Files\extra\icu\source\stubdata\;CMake Files\extra\zlib\;CMake Files\extra\zstd\;CMake Files\extra\libedit\;CMake Files\extra\libedit\libedit-20191231-3.1\;CMake Files\extra\libedit\libedit-20191231-3.1\src\;CMake Files\extra\libevent\;CMake Files\extra\libevent\libevent-2.1.11-stable\;CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\;CMake Files\extra\protobuf\;CMake Files\extra\protobuf\protobuf-3.11.4\;CMake Files\extra\protobuf\protobuf-3.11.4\cmake\;CMake Files\cmake\;CMake Files\cmake\os\;CMake Files\cmake\build_configurations\;CMake Files\cmake-build-debug\;CMake Files\include\;CMake Files\sql\;CMake Files\sql\server_component\;CMake Files\sql\protobuf\;CMake Files\strings\;CMake Files\vio\;CMake Files\mysys\;CMake Files\libmysql\;CMake Files\libmysql\authentication_ldap\;CMake Files\libmysql\authentication_fido\;CMake Files\libmysql\authentication_kerberos\;CMake Files\libmysql\authentication_oci_client\;CMake Files\libbinlogevents\;CMake Files\libbinlogevents\src\;CMake Files\libbinlogstandalone\;CMake Files\libbinlogstandalone\src\;CMake Files\storage\;CMake Files\storage\archive\;CMake Files\storage\blackhole\;CMake Files\storage\csv\;CMake Files\storage\example\;CMake Files\storage\federated\;CMake Files\storage\heap\;CMake Files\storage\innobase\;CMake Files\storage\myisam\;CMake Files\storage\myisammrg\;CMake Files\storage\perfschema\;CMake Files\storage\perfschema\unittest\;CMake Files\storage\secondary_engine_mock\;CMake Files\storage\temptable\;CMake Files\plugin\;CMake Files\plugin\audit_null\;CMake Files\plugin\auth\;CMake Files\plugin\clone\;CMake Files\plugin\connection_control\;CMake Files\plugin\daemon_example\;CMake Files\plugin\ddl_rewriter\;CMake Files\plugin\fulltext\;CMake Files\plugin\group_replication\;CMake Files\plugin\group_replication\libmysqlgcs\;CMake Files\plugin\group_replication\libmysqlgcs\cmake\;CMake Files\plugin\group_replication\protobuf\;CMake Files\plugin\innodb_memcached\;CMake Files\plugin\keyring\;CMake Files\plugin\keyring_udf\;CMake Files\plugin\password_validation\;CMake Files\plugin\pfs_table_plugin\;CMake Files\plugin\replication_observers_example\;CMake Files\plugin\rewrite_example\;CMake Files\plugin\rewriter\;CMake Files\plugin\semisync\;CMake Files\plugin\test_service_sql_api\;CMake Files\plugin\test_services\;CMake Files\plugin\udf_services\;CMake Files\plugin\version_token\;CMake Files\plugin\x\;CMake Files\plugin\x\src\;CMake Files\plugin\x\src\config\;CMake Files\plugin\x\protocol\;CMake Files\plugin\x\protocol\protobuf\;CMake Files\plugin\x\protocol\plugin\;CMake Files\plugin\x\client\;CMake Files\plugin\x\tests\;CMake Files\plugin\x\tests\driver\;CMake Files\plugin\x\tests\components\;CMake Files\components\;CMake Files\components\audit_api_message_emit\;CMake Files\components\example\;CMake Files\components\keyrings\;CMake Files\components\keyrings\common\;CMake Files\components\keyrings\keyring_file\;CMake Files\components\libminchassis\;CMake Files\components\library_mysys\;CMake Files\components\logging\;CMake Files\components\mysqlbackup\;CMake Files\components\pfs_component\;CMake Files\components\pfs_example\;CMake Files\components\query_attributes\;CMake Files\components\reference_cache\;CMake Files\components\test\;CMake Files\components\test\keyring_encryption_test\;CMake Files\components\test\perfschema\;CMake Files\components\test\table_access\;CMake Files\components\test\udf_services\;CMake Files\components\validate_password\;CMake Files\unittest\;CMake Files\unittest\gunit\;CMake Files\unittest\gunit\ddl_rewriter\;CMake Files\unittest\gunit\innodb\;CMake Files\unittest\gunit\innodb\lob\;CMake Files\unittest\gunit\keyring\;CMake Files\unittest\gunit\components\;CMake Files\unittest\gunit\components\mysql_server\;CMake Files\unittest\gunit\components\keyring_common\;CMake Files\unittest\gunit\xplugin\;CMake Files\unittest\gunit\xplugin\xpl\;CMake Files\unittest\gunit\xplugin\xcl\;CMake Files\unittest\gunit\group_replication\;CMake Files\unittest\gunit\libmysqlgcs\;CMake Files\unittest\gunit\temptable\;CMake Files\unittest\gunit\binlogevents\;CMake Files\unittest\gunit\memory\;CMake Files\unittest\gunit\containers\;CMake Files\unittest\gunit\locks\;CMake Files\unittest\examples\;CMake Files\unittest\mytap\;CMake Files\unittest\mytap\t\;CMake Files\client\;CMake Files\client\base\;CMake Files\client\dump\;CMake Files\client\migrate_keyring\;CMake Files\utilities\;CMake Files\share\;CMake Files\libservices\;CMake Files\testclients\;CMake Files\scripts\;CMake Files\scripts\sys_schema\;CMake Files\mysql-test\;CMake Files\mysql-test\lib\;CMake Files\mysql-test\lib\My\;CMake Files\mysql-test\lib\My\SafeProcess\;CMake Files\support-files\;CMake Files\router\;CMake Files\router\cmake\;CMake Files\router\src\;CMake Files\router\src\harness\;CMake Files\router\src\harness\src\;CMake Files\router\src\harness\include\;CMake Files\router\src\harness\shared\;CMake Files\router\src\harness\tests\;CMake Files\router\src\harness\tests\data\;CMake Files\router\src\harness\tests\data\logger.d\;CMake Files\router\src\harness\tests\plugins\;CMake Files\router\src\http\;CMake Files\router\src\http\src\;CMake Files\router\src\http\tests\;CMake Files\router\src\io\;CMake Files\router\src\io\src\;CMake Files\router\src\io\tests\;CMake Files\router\src\json_schema_embedder\;CMake Files\router\src\keepalive\;CMake Files\router\src\keepalive\tests\;CMake Files\router\src\keepalive\tests\data\;CMake Files\router\src\metadata_cache\;CMake Files\router\src\metadata_cache\tests\;CMake Files\router\src\mock_server\;CMake Files\router\src\mock_server\src\;CMake Files\router\src\mock_server\tests\;CMake Files\router\src\mysql_protocol\;CMake Files\router\src\mysql_protocol\tests\;CMake Files\router\src\openssl\;CMake Files\router\src\openssl\src\;CMake Files\router\src\plugin_info\;CMake Files\router\src\plugin_info\src\;CMake Files\router\src\plugin_info\tests\;CMake Files\router\src\protobuf\;CMake Files\router\src\protobuf\src\;CMake Files\router\src\rest_api\;CMake Files\router\src\rest_api\src\;CMake Files\router\src\rest_metadata_cache\;CMake Files\router\src\rest_metadata_cache\src\;CMake Files\router\src\rest_router\;CMake Files\router\src\rest_router\src\;CMake Files\router\src\rest_routing\;CMake Files\router\src\rest_routing\src\;CMake Files\router\src\router\;CMake Files\router\src\router\src\;CMake Files\router\src\router\tests\;CMake Files\router\src\routing\;CMake Files\router\src\routing\tests\;CMake Files\router\tests\;CMake Files\router\tests\component\;CMake Files\router\tests\fuzzers\;CMake Files\man\;CMake Files\packaging\;CMake Files\packaging\rpm-common\;CMake Files\packaging\rpm-oel\;CMake Files\packaging\rpm-fedora\;CMake Files\packaging\rpm-sles\;CMake Files\packaging\rpm-docker\;CMake Files\packaging\deb-in\;CMake Files\packaging\WiX\;CMake Files\packaging\solaris\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/archive_output_directory/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRAPIDJSON_NO_SIZETYPEDEFINE"/>
+					<Add option="-DRAPIDJSON_SCHEMA_USE_INTERNALREGEX=0"/>
+					<Add option="-DRAPIDJSON_SCHEMA_USE_STDREGEX=1"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-DLZ4_DISABLE_DEPRECATE_WARNINGS"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/include"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/include"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/archive_output_directory/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRAPIDJSON_NO_SIZETYPEDEFINE"/>
+					<Add option="-DRAPIDJSON_SCHEMA_USE_INTERNALREGEX=0"/>
+					<Add option="-DRAPIDJSON_SCHEMA_USE_STDREGEX=1"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-DLZ4_DISABLE_DEPRECATE_WARNINGS"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/include"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/include"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib"/>
+					<Add directory="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/extra/zlib/zconf.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/adler32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/compress.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/crc32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/crc32.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/deflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/deflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/gzclose.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/gzguts.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/gzlib.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/gzread.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/gzwrite.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/infback.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/inffast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/inffast.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/inffixed.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/inflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/inflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/inftrees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/inftrees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/trees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/trees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/uncompr.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/zlib.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/zutil.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/zutil.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/Doxyfile.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/MYSQL_VERSION">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/config.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/configure.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/icu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\icu\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/icu/source/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\icu\source\common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/icu/source/i18n/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\icu\source\i18n\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/icu/source/stubdata/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\icu\source\stubdata\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\extra\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/zstd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\zstd\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libedit/libedit-20191231-3.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\libedit\libedit-20191231-3.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libedit/libedit-20191231-3.1/src/makelist.in">
+			<Option virtualFolder="CMake Files\extra\libedit\libedit-20191231-3.1\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/evconfig-private.h.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/event-config.h.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/AddCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/CheckConstExists.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/CheckFileOffsetBits.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/CheckFunctionExistsEx.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/CheckPrototypeDefinition.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/CheckWorkingKqueue.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/libevent/libevent-2.1.11-stable/cmake/VersionViaGit.cmake">
+			<Option virtualFolder="CMake Files\extra\libevent\libevent-2.1.11-stable\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/protobuf/protobuf-3.11.4/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\protobuf\protobuf-3.11.4\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/protobuf/protobuf-3.11.4/cmake/libprotobuf-lite.cmake">
+			<Option virtualFolder="CMake Files\extra\protobuf\protobuf-3.11.4\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/protobuf/protobuf-3.11.4/cmake/libprotobuf.cmake">
+			<Option virtualFolder="CMake Files\extra\protobuf\protobuf-3.11.4\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/protobuf/protobuf-3.11.4/cmake/libprotoc.cmake">
+			<Option virtualFolder="CMake Files\extra\protobuf\protobuf-3.11.4\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/protobuf/protobuf-3.11.4/cmake/protobuf-options.cmake">
+			<Option virtualFolder="CMake Files\extra\protobuf\protobuf-3.11.4\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/extra/protobuf/protobuf-3.11.4/cmake/protoc.cmake">
+			<Option virtualFolder="CMake Files\extra\protobuf\protobuf-3.11.4\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/Plugin.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/abi_check.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/bison.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/boost.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/character_sets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/cmake_parse_arguments.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/cmake_policies.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/compile_flags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/component.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/configurable_file_content.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/cpack_source_ignore_files.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/cpu_info.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/curl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/fido2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/fileutils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/floating_point.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/fprofile.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/gloves.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/googletest.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/icu.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/info_macros.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/install_layout.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/install_macros.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/kerberos.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/ldap.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/libevent.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/libutils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/link_options.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/lz4.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/maintainer.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/make_dist.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/malloc_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/mysql_add_executable.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/mysql_version.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/package_name.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/pkg-config.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/plugin.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/protobuf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/protobuf_proto_compile.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/rapidjson.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/readline.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/rpc.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/sasl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/ssl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/tags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/zlib.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/zstd.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/os/Darwin.cmake">
+			<Option virtualFolder="CMake Files\cmake\os\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake/build_configurations/compiler_options.cmake">
+			<Option virtualFolder="CMake Files\cmake\build_configurations\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/find_libevent_version.c">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/cmake-build-debug/info_macros.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/include/mysql_version.h.in">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/sql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/sql/sql_builtin.cc.in">
+			<Option virtualFolder="CMake Files\sql\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/sql/server_component/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql\server_component\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/sql/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/strings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\strings\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/vio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vio\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/mysys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysys\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libmysql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libmysql/api_test.c.in">
+			<Option virtualFolder="CMake Files\libmysql\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libmysql/authentication_ldap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\authentication_ldap\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libmysql/authentication_fido/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\authentication_fido\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libmysql/authentication_kerberos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\authentication_kerberos\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libmysql/authentication_oci_client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\authentication_oci_client\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libbinlogevents/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogevents\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libbinlogevents/binlog_config.h.cmake">
+			<Option virtualFolder="CMake Files\libbinlogevents\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libbinlogevents/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogevents\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libbinlogstandalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogstandalone\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libbinlogstandalone/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libbinlogstandalone\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/archive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\archive\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/blackhole/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\blackhole\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/csv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\csv\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\example\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/federated/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\federated\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/heap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\heap\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/innobase/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\innobase\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/innobase/innodb.cmake">
+			<Option virtualFolder="CMake Files\storage\innobase\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/myisam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\myisam\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/myisammrg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\myisammrg\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/perfschema/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\perfschema\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/perfschema/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\perfschema\unittest\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/secondary_engine_mock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\secondary_engine_mock\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/storage/temptable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\temptable\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/audit_null/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\audit_null\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/auth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\auth\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/clone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\clone\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/connection_control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\connection_control\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/daemon_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\daemon_example\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/ddl_rewriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\ddl_rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/fulltext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\fulltext\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/fulltext/mecab.cmake">
+			<Option virtualFolder="CMake Files\plugin\fulltext\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/cmake/gcs_debug.in">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/cmake/gcs_profile.in">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/cmake/mysql_gcs.h.cmake">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/cmake/rpcgen.cmake">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/cmake/xcom.h.cmake">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/libmysqlgcs/cmake/xcom_debug.in">
+			<Option virtualFolder="CMake Files\plugin\group_replication\libmysqlgcs\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/group_replication/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\group_replication\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/innodb_memcached/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\innodb_memcached\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/keyring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\keyring\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/keyring_udf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\keyring_udf\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/password_validation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\password_validation\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/pfs_table_plugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\pfs_table_plugin\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/replication_observers_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\replication_observers_example\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/rewrite_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\rewrite_example\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/rewriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/rewriter/install_rewriter.sql.in">
+			<Option virtualFolder="CMake Files\plugin\rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/rewriter/uninstall_rewriter.sql.in">
+			<Option virtualFolder="CMake Files\plugin\rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/semisync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\semisync\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/test_service_sql_api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\test_service_sql_api\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/test_services/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\test_services\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/udf_services/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\udf_services\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/version_token/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\version_token\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/configure.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/utils.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/variables.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/src/source_files.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/src/config/mysqlx_ername.h.in">
+			<Option virtualFolder="CMake Files\plugin\x\src\config\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/src/config/mysqlx_error.h.in">
+			<Option virtualFolder="CMake Files\plugin\x\src\config\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/src/config/mysqlx_version.h.in">
+			<Option virtualFolder="CMake Files\plugin\x\src\config\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/protocol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\protocol\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/protocol/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\protocol\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/protocol/protobuf/source_files.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\protocol\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/protocol/plugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\protocol\plugin\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/protocol/plugin/source_files.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\protocol\plugin\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\client\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/client/source_files.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\client\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/tests/driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\tests\driver\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/tests/driver/source_files.cmake">
+			<Option virtualFolder="CMake Files\plugin\x\tests\driver\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/plugin/x/tests/components/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\x\tests\components\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/audit_api_message_emit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\audit_api_message_emit\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\example\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/keyrings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\keyrings\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/keyrings/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\keyrings\common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/keyrings/keyring_file/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\keyrings\keyring_file\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/libminchassis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\libminchassis\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/library_mysys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\library_mysys\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/logging/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\logging\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/mysqlbackup/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\mysqlbackup\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/pfs_component/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\pfs_component\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/pfs_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\pfs_example\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/query_attributes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\query_attributes\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/reference_cache/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\reference_cache\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\test\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/test/keyring_encryption_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\test\keyring_encryption_test\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/test/perfschema/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\test\perfschema\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/test/table_access/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\test\table_access\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/test/udf_services/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\test\udf_services\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/components/validate_password/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\components\validate_password\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/ddl_rewriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\ddl_rewriter\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/innodb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\innodb\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/innodb/lob/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\innodb\lob\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/keyring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\keyring\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/components/mysql_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\components\mysql_server\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/components/keyring_common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\components\keyring_common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/xplugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\xplugin\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/xplugin/xpl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\xplugin\xpl\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/xplugin/xpl/source_files.cmake">
+			<Option virtualFolder="CMake Files\unittest\gunit\xplugin\xpl\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/xplugin/xcl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\xplugin\xcl\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/xplugin/xcl/source_files.cmake">
+			<Option virtualFolder="CMake Files\unittest\gunit\xplugin\xcl\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/group_replication/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\group_replication\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/libmysqlgcs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\libmysqlgcs\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/temptable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\temptable\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/binlogevents/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\binlogevents\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\memory\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/containers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\containers\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/gunit/locks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\gunit\locks\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\examples\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/mytap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\mytap\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/unittest/mytap/t/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\mytap\t\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/client/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\base\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/client/dump/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\dump\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/client/migrate_keyring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\migrate_keyring\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utilities\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/share/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\share\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/share/dictionary.txt">
+			<Option virtualFolder="CMake Files\share\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/libservices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libservices\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/testclients/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testclients\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/scripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/scripts/mysql_config.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/scripts/mysqlclient.pc.in">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/scripts/mysqld_multi.pl.in">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/scripts/mysqld_safe.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/scripts/mysqldumpslow.pl.in">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/scripts/sys_schema/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\scripts\sys_schema\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/mysql-test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysql-test\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/mysql-test/mtr.out-of-source">
+			<Option virtualFolder="CMake Files\mysql-test\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/mysql-test/lib/My/SafeProcess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysql-test\lib\My\SafeProcess\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/support-files/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/support-files/mysql-log-rotate.in">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/support-files/mysql.server.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/support-files/mysqlrouter-log-rotate.in">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/config.h.in">
+			<Option virtualFolder="CMake Files\router\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/Plugin.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/fuzzer.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/packaging.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/set_rpath.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/settings.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/testing.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/cmake/version.cmake">
+			<Option virtualFolder="CMake Files\router\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\harness\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\harness\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/src/plugin.h.in">
+			<Option virtualFolder="CMake Files\router\src\harness\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\harness\include\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/shared/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\harness\shared\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/logger.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/magic-alt.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/tests-bad-1.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/tests-bad-2.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/tests-bad-3.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/tests-good-1.cfg.in">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/tests-good-2.cfg.in">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/tests-start-1.cfg.in">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/logger.d/default.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\logger.d\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/logger.d/magic.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\logger.d\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/data/logger.d/one.cfg">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\data\logger.d\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/harness/tests/plugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\harness\tests\plugins\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\http\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/http/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\http\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/http/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\http\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\io\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/io/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\io\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/io/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\io\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/json_schema_embedder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\json_schema_embedder\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/keepalive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\keepalive\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/keepalive/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\keepalive\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/keepalive/tests/data/keepalive.cfg.in">
+			<Option virtualFolder="CMake Files\router\src\keepalive\tests\data\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/metadata_cache/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\metadata_cache\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/metadata_cache/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\metadata_cache\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/mock_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\mock_server\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/mock_server/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\mock_server\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/mock_server/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\mock_server\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/mysql_protocol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\mysql_protocol\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/mysql_protocol/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\mysql_protocol\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/openssl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\openssl\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/openssl/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\openssl\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/plugin_info/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\plugin_info\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/plugin_info/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\plugin_info\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/plugin_info/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\plugin_info\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\protobuf\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/protobuf/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\protobuf\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_api\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_api/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_api\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_metadata_cache/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_metadata_cache\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_metadata_cache/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_metadata_cache\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_router/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_router\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_router/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_router\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_routing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_routing\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/rest_routing/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\rest_routing\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\router\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\router\src\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/config_a.conf">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/config_b.conf">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/config_c.ini">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/mysqlrouter.conf.in">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/mysqlrouter_consolelogger.conf.in">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/mysqlrouter_extra.conf.in">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/mysqlrouter_nologger.conf.in">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/router/tests/parse_error.conf">
+			<Option virtualFolder="CMake Files\router\src\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/routing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\routing\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/src/routing/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\src\routing\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\tests\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/tests/component/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\tests\component\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/router/tests/fuzzers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\router\tests\fuzzers\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\man\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/filter-provides.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/filter-requires.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/my.cnf.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/my_config.h">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/mysql.logrotate.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/mysql_config.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/mysqlrouter.conf.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-common/mysqlrouter.init">
+			<Option virtualFolder="CMake Files\packaging\rpm-common\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-oel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-oel/mysql.init">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-oel/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-fedora/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-fedora\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-fedora/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-fedora\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-sles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-sles/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-docker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-docker/my.cnf.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/rpm-docker/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/deb-in/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\deb-in\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/WiX/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\WiX\"/>
+		</Unit>
+		<Unit filename="/Users/heidsoft/Downloads/research/mysql-8.0.27/packaging/solaris/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\solaris\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

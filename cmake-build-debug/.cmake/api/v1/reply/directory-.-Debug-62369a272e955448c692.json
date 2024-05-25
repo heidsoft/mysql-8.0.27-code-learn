@@ -1,0 +1,206 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"MYSQL_CHECK_SSL_DLLS",
+			"MYSQL_CHECK_PROTOBUF_DLLS",
+			"MYSQL_CHECK_FIDO_DLLS"
+		],
+		"files" : 
+		[
+			"cmake/ssl.cmake",
+			"CMakeLists.txt",
+			"cmake/install_macros.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1615,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 504,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 511,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1711,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 372,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 387,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1729,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 489,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2089,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2097,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 2112,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "SharedLibraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"cmake-build-debug/library_output_directory//libcrypto.dylib",
+				"cmake-build-debug/library_output_directory//libssl.dylib",
+				"cmake-build-debug/library_output_directory//libcrypto.1.1.dylib",
+				"cmake-build-debug/library_output_directory//libssl.1.1.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "SharedLibraries",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"cmake-build-debug/plugin_output_directory/plugin/libcrypto.1.1.dylib",
+				"cmake-build-debug/plugin_output_directory/plugin/libssl.1.1.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "SharedLibraries",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"cmake-build-debug/runtime_output_directory/libprotobuf.3.11.4.dylib",
+				"cmake-build-debug/runtime_output_directory/libprotobuf-lite.3.11.4.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "SharedLibraries",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"cmake-build-debug/plugin_output_directory/plugin/libprotobuf.3.11.4.dylib",
+				"cmake-build-debug/plugin_output_directory/plugin/libprotobuf-lite.3.11.4.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "SharedLibraries",
+			"destination" : "lib/plugin",
+			"paths" : 
+			[
+				"cmake-build-debug/plugin_output_directory/plugin/libfido2.1.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Info",
+			"destination" : "docs",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"Docs/mysql.info"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Readme",
+			"destination" : ".",
+			"paths" : 
+			[
+				"README",
+				"LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Info",
+			"destination" : "docs",
+			"paths" : 
+			[
+				"cmake-build-debug/Docs/INFO_SRC",
+				"cmake-build-debug/Docs/INFO_BIN"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Documentation",
+			"destination" : "docs",
+			"paths" : 
+			[
+				{
+					"from" : "Docs",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

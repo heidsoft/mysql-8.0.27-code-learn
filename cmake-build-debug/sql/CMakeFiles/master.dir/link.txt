@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmaster.a CMakeFiles/master.dir/rpl_source.cc.o CMakeFiles/master.dir/rpl_binlog_sender.cc.o CMakeFiles/master.dir/binlog_reader.cc.o
-/usr/bin/ranlib libmaster.a
